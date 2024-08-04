@@ -1,9 +1,10 @@
 
 
-[![senli1073](https://img.shields.io/badge/senli1073-github-blue?logo=github)](https://github.com/senli1073)
+[![dreliveam](https://img.shields.io/badge/senli1073-github-blue?logo=github)](https://github.com/dreliveam)
+
 
 He is a post doctor at Human-Computer Interaction Laboratory, Institute of software, Chinese Acadamy of Scienses.
-# in Computer Science, at School of Computer Science and Technology, China University of Mining and Technology, China.
+
 
 #### Email
 liushusen[at]iscas.ac.cn
