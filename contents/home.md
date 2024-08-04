@@ -1,6 +1,6 @@
 
 
-[![dreliveam](https://img.shields.io/badge/senli1073-github-blue?logo=github)](https://github.com/dreliveam)
+[![dreliveam](https://img.shields.io/badge/dreliveam-github-blue?logo=github)](https://github.com/dreliveam)
 
 
 He is a full-time Postdoctoral Fellow, and currently serves as part-time Research Assistant at Human-Computer Interaction Laboratory, Institute of software, Chinese Acadamy of Scienses. He is also one of the developers of the general physics engine project - <strong>PeriDyno</strong> (hosted by  [[Xiaowei He]](https://peridynamics.com/)).
@@ -21,3 +21,7 @@ liushusen[at]iscas.ac.cn
 
 #### Research Interests
 Computer Graphics, Physical Simulation, Fluid Dynamics, Physical Simulation Engine.
+
+
+#### Hobies
+He loves music (Rock, Jazz, etc.), and likes to play electronic keyboard, drums, and guitar. He enjoy reading books about history, anthropology, physics, astronomy, science fiction, etc.
