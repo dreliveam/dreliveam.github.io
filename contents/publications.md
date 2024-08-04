@@ -15,7 +15,7 @@
 [[Code]](https://github.com/peridyno/peridyno)
 
 - Lixin Ren, <strong>Shusen Liu</strong>, [Xiaowei He](https://peridynamics.com/)*, Yuzhong Guo, Enhua Wu* Algebraic Adaptive Signed Distance Field on GPU, Computational Visual Media Conference, 2022.
-![Teaser](Teaser.png)
+![Dual Particle](https://github.com/dreliveam/dreliveam.github.io/blob/main/contents/Teaser.png "Dual Particle")
 [[Paper]](https://peridynamics.com/publications/2022-Ren-AAS.pdf),
 [[Code]](https://github.com/peridyno/peridyno)
 
