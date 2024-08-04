@@ -3,7 +3,7 @@
 [![dreliveam](https://img.shields.io/badge/dreliveam-github-blue?logo=github)](https://github.com/dreliveam)
 
 
-He is a full-time Postdoctoral Fellow, and currently serves as part-time Research Assistant at Human-Computer Interaction Laboratory, Institute of software, Chinese Acadamy of Scienses. He is also one of the developers of the general physics engine project - <strong>PeriDyno</strong> (hosted by  [[Xiaowei He]](https://peridynamics.com/)).
+He is a full-time Postdoctoral Fellow, and currently serves as part-time Research Assistant at Human-Computer Interaction Laboratory, Institute of software, Chinese Acadamy of Scienses. He is also one of the developers of the general physics engine project - [PeriDyno](https://github.com/peridyno/peridyno) (hosted by  [Xiaowei He](https://peridynamics.com/)).
 
 
 #### Email
