@@ -1,9 +1,2 @@
-- First-prize Academic Scholarship, 2023.
-
-- Freshman Academic Scholarship, 2022.
-
-- Excellent Graduation Project of Jiangsu Province, 2022.
-
-- First-prize Enterprise Scholarship, 2021.
-
-- First-prize Academic Scholarship, 2019.
+- The 2nd Prize in the First "Challenger Cup" Metaverse Developer Competition (2023), China;
+- Outstanding Graphics Open Source Software Award by the China Computer Federation (2022), China;

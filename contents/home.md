@@ -2,16 +2,19 @@
 
 [![senli1073](https://img.shields.io/badge/senli1073-github-blue?logo=github)](https://github.com/senli1073)
 
-He is currently pursuing a Master's Degree in Computer Science, at School of Computer Science and Technology, China University of Mining and Technology, China.
+He is a post doctor at Human-Computer Interaction Laboratory, Institute of software, Chinese Acadamy of Scienses.
+# in Computer Science, at School of Computer Science and Technology, China University of Mining and Technology, China.
 
 #### Email
-sli[at]cumt.edu.cn
+liushusen[at]iscas.ac.cn
 
 
 #### Education
-M.E., Computer Science and Technology, China University of Mining and Technology, 2025 (expected).\
-B.E., Data Science and Big Data Technology, China University of Mining and Technology, 2022.
+Ph.D. Computer Science and Technology, SKLCS Lab, Institute of Software, Chinese Acadamy of Sciences, and University of Chinese Acadamy of Sciences, Jan, 2023.
+
+Master Degree. Physical Electronics, Jilin University, jun, 2014.
+
+Bachelor Degree. Electronic Science and Technology (Microelectronics), Heilongjiang University, jun, 2022.
 
 #### Research Interests
-Deep Learning, Artificial Intelligence Seismology, Mine Microseismic.
-
+Computer Graphics, Physical Simulation, Fluid Dynamics, Physical Simulation Engine.
