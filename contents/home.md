@@ -5,9 +5,12 @@
 
 He is a full-time Postdoctoral Fellow, and currently serves as part-time Research Assistant at Human-Computer Interaction Laboratory, Institute of software, Chinese Acadamy of Scienses. He is also one of the developers of the general physics engine project - [PeriDyno](https://github.com/peridyno/peridyno) (hosted by  [Xiaowei He](https://peridynamics.com/)).
 
+#### OCID
+0000-0002-7416-5110
 
 #### Email
 liushusen[at]iscas.ac.cn
+dreliveam[at]yeah.net
 
 
 #### Education and Experience
