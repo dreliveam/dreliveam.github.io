@@ -20,5 +20,5 @@
 [[Code]](https://github.com/peridyno/peridyno)
 
 - Research on Numerical Stability of SPH Method for Simulating Viscous Incompressible Fluids, Ph.D Thesis..
-[[Paper]](https://peridynamics.com/publications/2022-Ren-AAS.pdf),
+[[Paper]](https://github.com/dreliveam/dreliveam.github.io/tree/main/static/assets/Ph.D Thesis.Shusne Liu.pdf),
 
