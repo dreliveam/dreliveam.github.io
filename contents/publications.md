@@ -1,5 +1,6 @@
 
 
+![](https://github.com/dreliveam/dreliveam.github.io/tree/main/static/assets/Teaser.png)
 - <strong>Shusen Liu</strong>, [Xiaowei He](https://peridynamics.com/)*, Yuzhong Guo, [Yue Chang](https://changy1506.github.io), [Wencheng Wang](https://lcs.ios.ac.cn/~whn/)*. A Dual Particle Approach for Incompressible SPH fluids. ACM Transactions on Graphics,2024,43(3):28 (CCF-A, SCI IF 6.2).
 [[Paper]](https://peridynamics.com/publications/2024-Liu-DPA.pdf), [[Code]](https://github.com/peridyno/peridyno)
 
