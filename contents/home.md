@@ -10,8 +10,6 @@ He is a full-time Postdoctoral Fellow, and currently serves as part-time Researc
 
 #### Email
 liushusen[at]iscas.ac.cn
-dreliveam[at]yeah.net
-
 
 #### Education and Experience
 - <strong>Ph.D Degree</strong>. Computer Science and Technology, SKLCS Lab, Institute of Software, Chinese Acadamy of Sciences, and University of Chinese Acadamy of Sciences, Jan, 2023.
