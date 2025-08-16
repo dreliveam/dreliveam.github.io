@@ -27,7 +27,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Focusing on Computer Graphics, Computational Physics and Fluid Simulation."
   location         : "Beijing, China"
-  employer         : "Institute of Software, Chinese Academy of Sciences."
+  employer         : "ISCAS (Chinese Academic of Sciences)."
   uri              : # URL
   email            : "dreliveam@yeah.net" 
 
@@ -39,7 +39,7 @@ author:
   impactstory      : # URL
   orcid            : "https://orcid.org/0000-0002-7416-5110"
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  #pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
   scopus           : # URL
 
@@ -80,12 +80,12 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  books:
-    title: 'Books'
+#  books:
+#    title: 'Books'
   manuscripts:
-    title: 'Journal Articles'    
-  conferences:
-    title: 'Conference Papers'
+    title: 'Publication Papers'    
+#  conferences:
+#    title: 'Conference Papers'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
