@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,29 +9,41 @@ redirect_from:
 
 {% include base_path %}
 
+About Me
+======
+I am a  Post-doctor, and serves as Research Assistant at Human-Computer Interaction(HCI) Laboratory, Institute of software, Chinese Acadamy of Scienses (Beijing, China). My research focuses on computer graphics, particularly on physical Simulation. I am also one of the developers of the general physics engine project - [PeriDyno](https://github.com/peridyno) (hosted by [Xiaowei He](http://peridynamics.com)).
+
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D Computer Science and Technology, SKLCS Lab, Institute of Software, Chinese Acadamy of Sciences, and University of Chinese Acadamy of Sciences, Jan, 2023.
+* M.S. Physical Electronics, Jilin University, jun, 2014.
+* B.S. Electronic Science and Technology (Microelectronics), Heilongjiang University, jun, 2011.
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Feb. 2023 - now: Post-doctor & Research Assistant
+  * Human-Computer Interaction(HCI) Laboratory, Institute of software, Chinese Acadamy of Scienses (Beijing, China)
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Sep. 2014 - Aug. 2018: R&D Engineer (Technical Supervisor)
+  * Qingdao Hisense Group
+  * Duties included: Hardware R&D Engineer
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
+Research Projects
+======
+* Research on physical simulation using the dual-particle framework, National Natural Science Foundation of China, Jan.2024-Dec.2026, Principle Investigator(No.62302490).
+
+Public Service
+======
+* Reviewer
+  * SIGGRAPH.
+  * 中国仿真大会
+
+Hobies
+======
+* I love music (Rock, Jazz, etc.), and I also like to play electronic keyboard, drums, and guitar. 
+* I enjoy reading books about history, anthropology, physics, astronomy, science fiction, etc.
+
+<!--
 Skills
 ======
 * Skill 1
@@ -62,3 +74,4 @@ Teaching
 Service and leadership
 ======
 * Currently signed in to 43 different slack teams
+-->
