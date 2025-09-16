@@ -6,7 +6,7 @@ permalink: /publication/cvm2022
 excerpt: "**Lixin Ren, Shusen Liu, Xiaowei He, Yuzhong Guo, Enhua Wu**. <br/><img src='/images/cvm2022_sdf.png'>"
 date: 2022-9-1
 venue: 'Computational Visual Media Conference (CVM) 2022, Conference Paper.'
-slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
+
 paperurl: 'http://academicpages.github.io/files/paper1.pdf'
 bibtexurl: 'http://academicpages.github.io/files/bibtex1.bib'
 citation: 'Computational Visual Media Conference (CVM), 2022, Conference Paper.'
