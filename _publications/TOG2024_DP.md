@@ -6,7 +6,7 @@ permalink: /publication/TOG2024_DP
 excerpt: "**Shusen Liu, Xiaowei He, Yuzhong Guo, Yue Chang, Wencheng Wang** <br/><img src='/images/TOG2025_DP.png'>"
 date: 2024-02-17
 venue: 'ACM SIGGRAPH 2024 / ACM Transactions on Graphics,2024,43(3):28'
-paperurl: 'https://github.com/dreliveam/dreliveam.github.io/tree/master/files/DPISPH.pdf'
+paperurl: 'dreliveam.github.io/files/2025_Liu_DP.pdf'
 bibtexurl: 'http://dreliveam.github.io/files/bibtex1.bib'
 citation: 'ACM SIGGRAPH 2024 / ACM Transactions on Graphics,2024,43(3):28.'
 ---
