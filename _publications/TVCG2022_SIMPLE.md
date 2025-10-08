@@ -6,9 +6,8 @@ permalink: /publication/TVCG2022_SIMPLE
 excerpt: "**Shusen Liu, Xiaowei He, Wencheng Wang, Enhua Wu**. <br/><img src='/images/TVCG2022_SIMPLE.png'>"
 date: 2022-9-1
 venue: 'IEEE Transactions on Visualization and Computer Graphics, 2022, 28(9): 3168'
-slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-bibtexurl: 'http://academicpages.github.io/files/bibtex1.bib'
+paperurl: 'http://dreliveam.github.io/files/SIMPLE SPH.pdf'
+bibtexurl: 'http://dreliveam.github.io/files/bibtex1.bib'
 citation: 'IEEE Transactions on Visualization and Computer Graphics, 2022, 28(9): 3168'
 ---
 Author: **Shusen Liu, Xiaowei He, Wencheng Wang, Enhua Wu**

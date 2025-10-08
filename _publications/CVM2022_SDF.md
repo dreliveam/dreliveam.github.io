@@ -7,8 +7,8 @@ excerpt: "**Lixin Ren, Shusen Liu, Xiaowei He, Yuzhong Guo, Enhua Wu**. <br/><im
 date: 2022-9-1
 venue: 'Computational Visual Media Conference (CVM) 2022, Conference Paper.'
 
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-bibtexurl: 'http://academicpages.github.io/files/bibtex1.bib'
+paperurl: 'http://dreliveam.github.io/files/paper1.pdf'
+bibtexurl: 'http://dreliveam.github.io/files/bibtex1.bib'
 citation: 'Computational Visual Media Conference (CVM), 2022, Conference Paper.'
 ---
 Author: **Lixin Ren, Shusen Liu, Xiaowei He, Yuzhong Guo, Enhua Wu**
