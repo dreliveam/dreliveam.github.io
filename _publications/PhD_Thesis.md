@@ -6,7 +6,7 @@ permalink: /publication/University of Chinese Acadamy of Sciences, PhD_Thesis.
 excerpt: "**Shusen Liu**"
 date: 2023-1-1
 venue: 'University of Chinese Acadamy of Sciences, Ph.D Thesis'
-paperurl: 'http://dreliveam.github.io/files/Shusen Liu (Chinese)  Research on Numerical Stability of SPH Method for Simulating.pdf'
+paperurl: 'http://dreliveam.github.io/files/Shusen_Liu_PhD.pdf'
 citation: 'Ph.D Thesis.'
 ---
 Author: **[Shusen Liu](https://dreliveam.github.io/)**

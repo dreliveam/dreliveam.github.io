@@ -6,7 +6,7 @@ permalink: /publication/TVCG2022_SIMPLE
 excerpt: "**[Shusen Liu](https://dreliveam.github.io/), [Xiaowei He](https://peridynamics.com/), Wencheng Wang, Enhua Wu**. <br/><img src='/images/TVCG2022_SIMPLE.png'>"
 date: 2022-9-1
 venue: 'IEEE Transactions on Visualization and Computer Graphics, 2022, 28(9): 3168'
-paperurl: 'dreliveam.github.io/files/SIMPLE SPH.pdf'
+paperurl: 'http://dreliveam.github.io/files/2022_SIMPLE_SPH.pdf'
 bibtexurl: 'http://dreliveam.github.io/files/bibtex_TVCG2022_SIMPLE.bib'
 sourcecodeurl: 'https://github.com/peridyno/peridyno'
 citation: 'IEEE Transactions on Visualization and Computer Graphics, 2022, 28(9): 3168'
