@@ -40,11 +40,24 @@
 }
 
 .archive__item-title {
-  margin-bottom: 0.25em;
+  margin-bottom: 0.1em;
   font-family: $sans-serif-narrow;
 
   a + a {
     opacity: 0.5;
+  }
+}
+
+/* Reduce line spacing for publication items */
+.list__item {
+  .archive__item {
+    p {
+      margin-bottom: 0.3em;
+    }
+    
+    .page__meta {
+      margin-bottom: 0.2em;
+    }
   }
 }
 
