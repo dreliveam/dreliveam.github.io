@@ -1,0 +1,20 @@
+---
+title: "Research on Numerical Stability of SPH Method for Simulating"
+collection: publications
+category: manuscripts
+permalink: /publication/PhD_Thesis, University of Chinese Acadamy of Sciences.
+excerpt: "**Shusen Liu**"
+date: 2023-1-1
+venue: 'Ph.D Thesis'
+paperurl: 'http://dreliveam.github.io/files/Shusen Liu (Chinese)  Research on Numerical Stability of SPH Method for Simulating.pdf'
+citation: 'Ph.D Thesis.'
+---
+Author: **[Shusen Liu](https://dreliveam.github.io/)**
+
+<p style="text-align: justify;">
+Smoothed Particle Hydrodynamics (SPH) is one of the main techniques to simulate fluids. Compared with other fluid simulation methods, the SPH method has many advantages: easy to guarantee the mass conservations, easy to capture the boundary, and easy to simulate the coupling of different materials, etc. Therefore, the method has important applications in visual-reality, computer games, animation, special-effect in film and so on. However, despite years of development, the SPH method still suffers from serious numerical instability, which limits its use in application: (1)The interference between pressure and viscosity solvers leads to the poor stability of the SPH method in simulating high viscous fluids; (2)The SPH method suffers from the tensile instability problem, in which the particles will tend to clump in pairs under tensions and result in a bad visual-quality of small-scaled features, including droplets, streamlines and sheets; (3)The physical fields and their differentiation of fluids are all defined on the same particles, which will introduce the zero-Energy mode and exacerbate the tensile instability further; (4) The accuracy of the SPH method is easily affected by the non-uniform distribution of particles, which leads to the poor stability of fluid simulations. In this thesis, relevant targeted research has been carried out to address the numerical instability of the SPH fluid, and the following progress has been achieved.
+
+For the interference between the viscosity and incompressibility of the SPH fluids, we introduce the SIMPLE (Semi-Implicit Method for Pressure Linked Equation) iterative algorithm to the particle methods, which can effectively suppress the interferences. Tests show that our method converges stably and only requires a few iterations to generate high visual quality results for large viscous fluids. Our method is able to model remarkable viscous behaviors with a good property of preserving sharp surface details.
+
+For the stability issue of SPH fluid simulation, we propose a dual particle framework in the SPH method, which divides the standard SPH particles into real particles that carry velocity, and virtual particles that store the pressure property. Based on the dual particle framework, we devise the projection algorithm to enforce incompressibility. Since the introduced virtual particles can narrow down the unstable region for particles under a tensile stress state, avoid the zero-energy mode, and suppress the effect of particle perturbation on fluid pressures. Our method can weaken the tensile instability of the SPH fluid, and improve the visual quality of the small-scaled features of fluids. Besides, it is found that uniform virtual particles are essential for fluid stability improvement, so a GPU-based spatially adaptive virtual particle generation method is proposed to efficiently obtain well-distributed virtual particles. Since our dual particle framework contains virtual particles that can be used as Lagrangian particles or Eulerian grids in different simulation strategies. Therefore, our dual-particle framework is compatible with various particle simulation methods, such as the original SPH method, the dual particle method and the hybrid particle-grid method. As a result, a general fluid simulation engine is constructed in this paper. In a comparative study using this engine, it is found that the particle distribution is very uneven in the hybrid particle-grid method. Therefore, we propose to use the SPH particle shifting technique to uniformly distribute the particles in the hybrid particle-grid method to improve its simulation stability.
+</p>

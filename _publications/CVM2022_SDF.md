@@ -7,7 +7,7 @@ excerpt: "**Lixin Ren, [Shusen Liu](https://dreliveam.github.io/), [Xiaowei He](
 date: 2022-9-1
 venue: 'Computational Visual Media Conference (CVM) 2022, Conference Paper.'
 
-paperurl: 'http://dreliveam.github.io/files/paper1.pdf'
+paperurl: 'http://dreliveam.github.io/files/2022_AASDF.pdf'
 bibtexurl: 'http://dreliveam.github.io/files/bibtex_CVM2022_SDF.bib'
 sourcecodeurl: 'https://github.com/peridyno/peridyno'
 citation: 'Computational Visual Media Conference (CVM), 2022, Conference Paper.'

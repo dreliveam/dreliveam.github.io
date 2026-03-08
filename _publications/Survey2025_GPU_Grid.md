@@ -6,7 +6,6 @@ permalink: /publication/survey2025_gpu_grid
 excerpt: "**Lixin Ren, [Shusen Liu](https://dreliveam.github.io/), Yuzhong Guo, [Xiaowei He](https://peridynamics.com/), Enhua Wu**. "
 date: 2025-1-1
 venue: 'Journal of Computer-Aided Design & Computer Graphics（计算机辅助设计与图形学学报）'
-slidesurl: 'http://dreliveam.github.io/files/slides1.pdf'
 paperurl: 'http://dreliveam.github.io/files/2025_GPU_Grid.pdf'
 bibtexurl: 'http://dreliveam.github.io/files/bibtex_Survey2025_GPU_Grid.bib'
 sourcecodeurl: 'https://github.com/peridyno/peridyno'

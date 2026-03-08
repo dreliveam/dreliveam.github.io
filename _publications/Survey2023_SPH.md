@@ -6,10 +6,8 @@ permalink: /publication/survey2023sph
 excerpt: "**[Xiaowei He](https://peridynamics.com/), [Shusen Liu](https://dreliveam.github.io/), Yuzhong Guo, Ying Qiao**. "
 date: 2023-1-1
 venue: 'Journal of Software (软件学报), 2022, 35(1): 481-512'
-slidesurl: 'http://dreliveam.github.io/files/slides1.pdf'
-paperurl: 'http://dreliveam.github.io/files/paper1.pdf'
+paperurl: 'http://dreliveam.github.io/files/2023_Survey_SPH.pdf'
 bibtexurl: 'http://dreliveam.github.io/files/bibtex_Survey2023_SPH.bib'
-sourcecodeurl: 'https://github.com/peridyno/peridyno'
 citation: 'Journal of Software (软件学报), 2022, 35(1): 481-512.'
 ---
 Author: ** [Shusen Liu](https://dreliveam.github.io/), [Xiaowei He](https://peridynamics.com/), Wencheng Wang, Enhua Wu**

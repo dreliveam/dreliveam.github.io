@@ -6,8 +6,7 @@ permalink: /publication/SIGGRAPH2025_StackFree
 excerpt: "**Lixin Ren, [Xiaowei He](https://peridynamics.com/), [Shusen Liu](https://dreliveam.github.io/), Yuzhong Guo, Enhua Wu**. <br/><img src='/images/TOG2025_BTree.png'>"
 date: 2025-12-1
 venue: 'ACM SIGGRAPH Asia 2025 / ACM Transactions on Graphics, 2025, 44(6), 180'
-slidesurl: 'http://dreliveam.github.io/files/slides1.pdf'
-paperurl: 'http://dreliveam.github.io/files/paper1.pdf'
+paperurl: 'http://dreliveam.github.io/files/2025_Ren_GpuBalancedTree.pdf'
 bibtexurl: 'http://dreliveam.github.io/files/bibtex_SIGGRAPH2025_StackFree.bib'
 sourcecodeurl: 'https://github.com/peridyno/peridyno'
 citation: 'ACM SIGGRAPH Asia 2025 / ACM Transactions on Graphics, 2025, 44(6), 180.'
