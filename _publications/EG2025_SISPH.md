@@ -3,7 +3,7 @@ title: "A Semi-Implicit SPH Method for Compressible and Incompressible Flows wit
 collection: publications
 category: manuscripts
 permalink: /publication/EG2025_SISPH
-excerpt: "**[Xiaowei He](https://peridynamics.com/), [Shusen Liu](https://dreliveam.github.io/), Yuzhong Guo, Ying Qiao**. <br/><img src='/images/EG2025_SISPH.png'>"
+excerpt: "**[Xiaowei He](https://peridynamics.com/), [Shusen Liu](https://dreliveam.github.io/), Yuzhong Guo, Ying Qiao**. <br/><img src='/images/EG2025_SISPH.jpg'>"
 date: 2025-2-1
 venue: ' Eurograchics 2025 / Computer Graphics Forum. 2025'
 

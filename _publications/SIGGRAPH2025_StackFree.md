@@ -3,7 +3,7 @@ title: "A Stack-Free Parallel ℎ-Adaptation Algorithm for Dynamically Balanced 
 collection: publications
 category: manuscripts
 permalink: /publication/SIGGRAPH2025_StackFree
-excerpt: "**Lixin Ren, [Xiaowei He](https://peridynamics.com/), [Shusen Liu](https://dreliveam.github.io/), Yuzhong Guo, Enhua Wu**. <br/><img src='/images/TOG2025_BTree.png'>"
+excerpt: "**Lixin Ren, [Xiaowei He](https://peridynamics.com/), [Shusen Liu](https://dreliveam.github.io/), Yuzhong Guo, Enhua Wu**. <br/><img src='/images/TOG2025_BTree.jpg'>"
 date: 2025-12-1
 venue: 'ACM SIGGRAPH Asia 2025 / ACM Transactions on Graphics, 2025, 44(6), 180'
 paperurl: 'http://dreliveam.github.io/files/2025_Ren_GpuBalancedTree.pdf'

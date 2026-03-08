@@ -3,7 +3,7 @@ title: "Semi-analytical Solid Boundary Conditions for Free Surface Flows"
 collection: publications
 category: manuscripts
 permalink: /publication/PG2025_SISPH
-excerpt: "**[Yue Chang](https://changy1506.github.io/), [Shusen Liu](https://dreliveam.github.io/), [Xiaowei He](https://peridynamics.com/), Sheng Li, and Guoping Wang**. <br/><img src='/images/PG2020_SAB.png'>"
+excerpt: "**[Yue Chang](https://changy1506.github.io/), [Shusen Liu](https://dreliveam.github.io/), [Xiaowei He](https://peridynamics.com/), Sheng Li, and Guoping Wang**. <br/><img src='/images/PG2020_SAB.jpg'>"
 date: 2020-9-1
 venue: ' Pacific Graphics 2020 / Computer Graphics Forum. 2020, 39(7): 131-141.'
 paperurl: 'http://dreliveam.github.io/files/2020_PG_SA-Boundary.pdf'

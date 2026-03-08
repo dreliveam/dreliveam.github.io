@@ -3,7 +3,7 @@ title: "Adapted SIMPLE Algorithm for Incompressible SPH Fluids with a Broad Rang
 collection: publications
 category: manuscripts
 permalink: /publication/TVCG2022_SIMPLE
-excerpt: "**[Shusen Liu](https://dreliveam.github.io/), [Xiaowei He](https://peridynamics.com/), Wencheng Wang, Enhua Wu**. <br/><img src='/images/TVCG2022_SIMPLE.png'>"
+excerpt: "**[Shusen Liu](https://dreliveam.github.io/), [Xiaowei He](https://peridynamics.com/), Wencheng Wang, Enhua Wu**. <br/><img src='/images/TVCG2022_SIMPLE.jpg'>"
 date: 2022-9-1
 venue: 'IEEE Transactions on Visualization and Computer Graphics, 2022, 28(9): 3168'
 paperurl: 'http://dreliveam.github.io/files/2022_SIMPLE_SPH.pdf'

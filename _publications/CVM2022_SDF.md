@@ -3,7 +3,7 @@ title: "Algebraic Adaptive Signed Distance Field on GPU"
 collection: publications
 category: manuscripts
 permalink: /publication/cvm2022
-excerpt: "**Lixin Ren, [Shusen Liu](https://dreliveam.github.io/), [Xiaowei He](https://peridynamics.com/), Yuzhong Guo, Enhua Wu**. <br/><img src='/images/cvm2022_sdf.png'>"
+excerpt: "**Lixin Ren, [Shusen Liu](https://dreliveam.github.io/), [Xiaowei He](https://peridynamics.com/), Yuzhong Guo, Enhua Wu**. <br/><img src='/images/cvm2022_sdf.jpg'>"
 date: 2022-9-1
 venue: 'Computational Visual Media Conference (CVM) 2022, Conference Paper.'
 
