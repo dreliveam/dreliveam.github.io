@@ -9,6 +9,7 @@ venue: 'Journal of Software (软件学报), 2022, 35(1): 481-512'
 slidesurl: 'http://dreliveam.github.io/files/slides1.pdf'
 paperurl: 'http://dreliveam.github.io/files/paper1.pdf'
 bibtexurl: 'http://dreliveam.github.io/files/bibtex1.bib'
+sourcecodeurl: 'https://github.com/peridyno/peridyno'
 citation: 'Journal of Software (软件学报), 2022, 35(1): 481-512.'
 ---
 Author: ** Shusen Liu, Xiaowei He, Wencheng Wang, Enhua Wu**

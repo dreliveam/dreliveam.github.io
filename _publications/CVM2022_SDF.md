@@ -9,6 +9,7 @@ venue: 'Computational Visual Media Conference (CVM) 2022, Conference Paper.'
 
 paperurl: 'http://dreliveam.github.io/files/paper1.pdf'
 bibtexurl: 'http://dreliveam.github.io/files/bibtex1.bib'
+sourcecodeurl: 'https://github.com/peridyno/peridyno'
 citation: 'Computational Visual Media Conference (CVM), 2022, Conference Paper.'
 ---
 Author: **Lixin Ren, Shusen Liu, Xiaowei He, Yuzhong Guo, Enhua Wu**

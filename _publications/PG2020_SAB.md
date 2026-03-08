@@ -9,6 +9,7 @@ venue: ' Pacific Graphics 2020 / Computer Graphics Forum. 2020, 39(7): 131-141.'
 slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 paperurl: 'http://academicpages.github.io/files/paper1.pdf'
 bibtexurl: 'http://academicpages.github.io/files/bibtex1.bib'
+sourcecodeurl: 'https://github.com/peridyno/peridyno'
 citation: 'Computer Graphics Forum. 2020, 39(7): 131-141.'
 ---
 Author: **Yue Chang, Shusen Liu, Xiaowei He, Sheng Li, and Guoping Wang**

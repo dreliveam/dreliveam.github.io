@@ -9,6 +9,7 @@ venue: ' Eurograchics 2025 / Computer Graphics Forum. 2025'
 slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 paperurl: 'http://academicpages.github.io/files/paper1.pdf'
 bibtexurl: 'http://academicpages.github.io/files/bibtex1.bib'
+sourcecodeurl: 'https://github.com/peridyno/peridyno'
 citation: 'Computer Graphics Forum. 2025: e70043.'
 ---
 Author: **Xiaowei He, Shusen Liu, Yuzhong Guo, Ying Qiao**

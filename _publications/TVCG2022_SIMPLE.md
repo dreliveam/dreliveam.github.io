@@ -8,6 +8,7 @@ date: 2022-9-1
 venue: 'IEEE Transactions on Visualization and Computer Graphics, 2022, 28(9): 3168'
 paperurl: 'dreliveam.github.io/files/SIMPLE SPH.pdf'
 bibtexurl: 'http://dreliveam.github.io/files/bibtex1.bib'
+sourcecodeurl: 'https://github.com/peridyno/peridyno'
 citation: 'IEEE Transactions on Visualization and Computer Graphics, 2022, 28(9): 3168'
 ---
 Author: **Shusen Liu, Xiaowei He, Wencheng Wang, Enhua Wu**
