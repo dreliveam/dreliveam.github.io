@@ -3,7 +3,7 @@ title: "Research on Numerical Stability of SPH Method for Simulating"
 collection: publications
 category: manuscripts
 permalink: /publication/University of Chinese Acadamy of Sciences, PhD_Thesis.
-excerpt: "**Shusen Liu**"
+excerpt: "**Shusen Liu** <br/><img src='/images/ucas.jpg'>"
 date: 2023-1-1
 venue: 'University of Chinese Acadamy of Sciences, Ph.D Thesis'
 paperurl: 'http://dreliveam.github.io/files/Shusen_Liu_PhD.pdf'

@@ -3,7 +3,7 @@ title: "Research on GPU-Based Parallel Adaptive Cartesian Grid Modeling Methods 
 collection: publications
 category: manuscripts
 permalink: /publication/survey2025_gpu_grid
-excerpt: "**Lixin Ren, [Shusen Liu](https://dreliveam.github.io/), Yuzhong Guo, [Xiaowei He](https://peridynamics.com/), Enhua Wu**. "
+excerpt: "**Lixin Ren, [Shusen Liu](https://dreliveam.github.io/), Yuzhong Guo, [Xiaowei He](https://peridynamics.com/), Enhua Wu**. <br/><img src='/images/2025Octree.jpg'>"
 date: 2025-1-1
 venue: 'Journal of Computer-Aided Design & Computer Graphics（计算机辅助设计与图形学学报）'
 paperurl: 'http://dreliveam.github.io/files/2025_GPU_Grid.pdf'
