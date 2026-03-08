@@ -6,8 +6,7 @@ permalink: /publication/PG2025_SISPH
 excerpt: "**[Yue Chang](https://changy1506.github.io/), [Shusen Liu](https://dreliveam.github.io/), [Xiaowei He](https://peridynamics.com/), Sheng Li, and Guoping Wang**. <br/><img src='/images/PG2020_SAB.png'>"
 date: 2020-9-1
 venue: ' Pacific Graphics 2020 / Computer Graphics Forum. 2020, 39(7): 131-141.'
-slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
+paperurl: 'http://academicpages.github.io/files/2020_PG_SA-Boundary.pdf'
 bibtexurl: 'http://dreliveam.github.io/files/bibtex_PG2020_SAB.bib'
 sourcecodeurl: 'https://github.com/peridyno/peridyno'
 citation: 'Computer Graphics Forum. 2020, 39(7): 131-141.'
