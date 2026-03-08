@@ -3,16 +3,16 @@ title: "Survey on fluid simulation using smoothed particle hydrodynamics<br>光�
 collection: publications
 category: manuscripts
 permalink: /publication/survey2023sph
-excerpt: "**Xiaowei He, Shusen Liu, Yuzhong Guo, Ying Qiao**. "
+excerpt: "**[Xiaowei He](https://peridynamics.com/), Shusen Liu, Yuzhong Guo, Ying Qiao**. "
 date: 2023-1-1
 venue: 'Journal of Software (软件学报), 2022, 35(1): 481-512'
 slidesurl: 'http://dreliveam.github.io/files/slides1.pdf'
 paperurl: 'http://dreliveam.github.io/files/paper1.pdf'
-bibtexurl: 'http://dreliveam.github.io/files/bibtex1.bib'
+bibtexurl: 'http://dreliveam.github.io/files/bibtex_Survey2023_SPH.bib'
 sourcecodeurl: 'https://github.com/peridyno/peridyno'
 citation: 'Journal of Software (软件学报), 2022, 35(1): 481-512.'
 ---
-Author: ** Shusen Liu, Xiaowei He, Wencheng Wang, Enhua Wu**
+Author: ** Shusen Liu, [Xiaowei He](https://peridynamics.com/), Wencheng Wang, Enhua Wu**
 
 
 

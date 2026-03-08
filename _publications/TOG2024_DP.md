@@ -3,15 +3,15 @@ title: " A Dual Particle Approach for Incompressible SPH fluids. ACM Transaction
 collection: publications
 category: manuscripts
 permalink: /publication/TOG2024_DP
-excerpt: "**Shusen Liu, Xiaowei He, Yuzhong Guo, Yue Chang, Wencheng Wang** <br/><img src='/images/TOG2025_DP.png'>"
+excerpt: "**Shusen Liu, [Xiaowei He](https://peridynamics.com/), Yuzhong Guo, Yue Chang, Wencheng Wang** <br/><img src='/images/TOG2025_DP.png'>"
 date: 2024-02-17
 venue: 'ACM SIGGRAPH 2024 / ACM Transactions on Graphics,2024,43(3):28'
 paperurl: 'dreliveam.github.io/files/2025_Liu_DP.pdf'
-bibtexurl: 'http://dreliveam.github.io/files/bibtex1.bib'
+bibtexurl: 'http://dreliveam.github.io/files/bibtex_TOG2024_DP.bib'
 sourcecodeurl: 'https://github.com/peridyno/peridyno'
 citation: 'ACM SIGGRAPH 2024 / ACM Transactions on Graphics,2024,43(3):28.'
 ---
-Author: **Shusen Liu, Xiaowei He, Yuzhong Guo, Yue Chang, Wencheng Wang**
+Author: **Shusen Liu, [Xiaowei He](https://peridynamics.com/), Yuzhong Guo, Yue Chang, Wencheng Wang**
 
 <br/><img src='/images/TOG2025_DP.png'>
 

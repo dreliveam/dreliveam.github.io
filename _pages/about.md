@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a  Post-doctor, and serves as Research Assistant at Human-Computer Interaction(HCI) Laboratory, Institute of software, Chinese Acadamy of Scienses (Beijing, China). My research focuses on computer graphics, particularly on physical Simulation. I am also one of the developers of the general physics engine project - [PeriDyno](https://github.com/peridyno) (hosted by [Xiaowei He](http://peridynamics.com)).
+I am a  Post-doctor, and serves as Research Assistant at Human-Computer Interaction(HCI) Laboratory, Institute of software, Chinese Acadamy of Scienses (Beijing, China). My research focuses on computer graphics, particularly on physical Simulation. I am also one of the developers of the general physics engine project - [PeriDyno](https://github.com/peridyno) (hosted by [Xiaowei He](https://peridynamics.com/)).
 
 
 Pub.
