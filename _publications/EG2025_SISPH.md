@@ -5,7 +5,7 @@ category: manuscripts
 permalink: /publication/EG2025_SISPH
 excerpt: "**[Xiaowei He](https://peridynamics.com/), [Shusen Liu](https://dreliveam.github.io/), Yuzhong Guo, Ying Qiao**. <br/><img src='/images/EG2025_SISPH.jpg'>"
 date: 2025-2-1
-venue: ' Eurograchics 2025 / Computer Graphics Forum. 2025'
+venue: ' Eurograchics 2025 / Computer Graphics Forum. 2025, 44(2):e70043. DOI:10.1111/cgf.70043.'
 
 paperurl: 'http://academicpages.github.io/files/2025_SISPH.pdf'
 bibtexurl: 'http://dreliveam.github.io/files/bibtex_EG2025_SISPH.bib'

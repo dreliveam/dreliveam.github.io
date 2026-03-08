@@ -5,8 +5,7 @@ category: manuscripts
 permalink: /publication/survey2024_peridyno
 excerpt: "**[Xiaowei He](https://peridynamics.com/), Jian Shi, [Shusen Liu](https://dreliveam.github.io/), Lixin Ren, Yuzhong Guo, Yong Cai, Hu Wang, Fei Zhu, Guoping Wang**. "
 date: 2024-10-5
-venue: 'JOURNAL OF GRAPHICS（图学学报）'
-slidesurl: 'http://dreliveam.github.io/files/slides1.pdf'
+venue: 'Journa of Graphics (图学学报). 2024, 45(6):1207-1221.DOI:10.11996/JG.j.2095-302X.2024061207.'
 paperurl: 'http://dreliveam.github.io/files/2024_He_PeriDyno.pdf'
 bibtexurl: 'http://dreliveam.github.io/files/bibtex_Survey2024_PeriDyno.bib'
 sourcecodeurl: 'https://github.com/peridyno/peridyno'
