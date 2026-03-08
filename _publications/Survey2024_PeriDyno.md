@@ -3,7 +3,7 @@ title: "The computational paradigm and software framework for mechanism and data
 collection: publications
 category: manuscripts
 permalink: /publication/survey2024_peridyno
-excerpt: "**[Xiaowei He](https://peridynamics.com/), Jian Shi, Shusen Liu, Lixin Ren, Yuzhong Guo, Yong Cai, Hu Wang, Fei Zhu, Guoping Wang**. "
+excerpt: "**[Xiaowei He](https://peridynamics.com/), Jian Shi, [Shusen Liu](https://dreliveam.github.io/), Lixin Ren, Yuzhong Guo, Yong Cai, Hu Wang, Fei Zhu, Guoping Wang**. "
 date: 2024-10-5
 venue: 'JOURNAL OF GRAPHICS（图学学报）'
 slidesurl: 'http://dreliveam.github.io/files/slides1.pdf'
@@ -12,7 +12,7 @@ bibtexurl: 'http://dreliveam.github.io/files/bibtex_Survey2024_PeriDyno.bib'
 sourcecodeurl: 'https://github.com/peridyno/peridyno'
 citation: 'JOURNAL OF GRAPHICS（图学学报）.'
 ---
-Author: **[Xiaowei He](https://peridynamics.com/), Jian Shi, Shusen Liu, Lixin Ren, Yuzhong Guo, Yong Cai, Hu Wang, Fei Zhu, Guoping Wang**
+Author: **[Xiaowei He](https://peridynamics.com/), Jian Shi, [Shusen Liu](https://dreliveam.github.io/), Lixin Ren, Yuzhong Guo, Yong Cai, Hu Wang, Fei Zhu, Guoping Wang**
 
 
 
