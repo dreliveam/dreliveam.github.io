@@ -10,7 +10,7 @@ venue: ' Eurograchics 2025 / Computer Graphics Forum. 2025, 44(2):e70043. DOI:10
 paperurl: 'http://academicpages.github.io/files/2025_SISPH.pdf'
 bibtexurl: 'http://dreliveam.github.io/files/bibtex_EG2025_SISPH.bib'
 sourcecodeurl: 'https://github.com/peridyno/peridyno'
-citation: 'Computer Graphics Forum. 2025: e70043.'
+citation: 'Eurograchics 2025 / Computer Graphics Forum. 2025, 44(2):e70043. DOI:10.1111/cgf.70043.'
 ---
 Author: **[Xiaowei He](https://peridynamics.com/), [Shusen Liu](https://dreliveam.github.io/), Yuzhong Guo, Ying Qiao**
 

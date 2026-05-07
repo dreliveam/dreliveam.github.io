@@ -4,8 +4,8 @@ collection: publications
 category: manuscripts
 permalink: /publication/EG2026_SemiAnalytical
 date: 2026-07-1
-venue: "Computer Graphics Forum (Eurographics), 2026"
-citation: "Computer Graphics Forum (Eurographics), 2026"
+venue: "Eurographics 2026 / Computer Graphics Forum, 2026: e70333."
+citation: "Eurographics 2026 / Computer Graphics Forum, 2026: e70333."
 excerpt: "**Junyuan Liu,  <a href='https://dreliveam.github.io/'>Shusen Liu</a>, Yuzhong Guo, Ruikai Liang, Yin Li, <a href='https://peridynamics.com/'>Xiaowei He</a>**. <br/><img src='/images/EG26.jpg'>"
 paperurl: 'http://dreliveam.github.io/files/2026-Liu-SAM.pdf'
 year: 2026
