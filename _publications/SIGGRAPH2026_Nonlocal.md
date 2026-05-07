@@ -6,13 +6,13 @@ permalink: /publication/SIGGRAPH2026_Nonlocal
 date: 2026-07-1
 venue: "ACM SIGGRAPH 2026 Conference paper"
 citation: "ACM SIGGRAPH 2026 Conference paper"
-excerpt: "**<a href='https://dreliveam.github.io/'>Shusen Liu</a>, Yuzhong Guo, Lixin Ren, Ying Qiao, <a href='https://peridynamics.com/'>Xiaowei He</a>**. <br/><img src='/images/SIG26.png'>"
+excerpt: "**<a href='https://dreliveam.github.io/'>Shusen Liu</a>, Yuzhong Guo, Lixin Ren, Ying Qiao, <a href='https://peridynamics.com/'>Xiaowei He</a>**. <br/><img src='/images/SIG26.jpg'>"
 year: 2026
 ---
 
 Author: **<a href='https://dreliveam.github.io/'>Shusen Liu</a>, Yuzhong Guo, Lixin Ren, Ying Qiao, <a href='https://peridynamics.com/'>Xiaowei He</a>**
 
-<br/><img src='/images/SIG26.png'>
+<br/><img src='/images/SIG26.jpg'>
 
 <p style="text-align: justify;">
 Simulating free-surface flows requires capturing the effects of incompressibility, viscosity, and surface tension. Existing particle-based methods often rely on operator splitting, which introduces coupling artifacts and limits stability. We propose a unified nonlinear optimization framework that achieves a strong coupling of these three effects within a single solver. By leveraging Peridynamics, we formulate the discretization of distinct fluid mechanisms under a consistent variational principle. Specifically, we recast fluid motion as a nonlinear variational optimization problem over particle positions, which is solved via the semi-implicit successive substitution method.
