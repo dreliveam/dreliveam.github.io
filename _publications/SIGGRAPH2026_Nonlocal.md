@@ -1,5 +1,5 @@
 ---
-title: "A Nonlocal Monolithic Variational Framework for Free Surface Flows"
+title: "A Nonlocal Unified Variational Framework for Free Surface Flows"
 collection: publications
 category: manuscripts
 permalink: /publication/SIGGRAPH2026_Nonlocal
@@ -15,5 +15,7 @@ Author: **<a href='https://dreliveam.github.io/'>Shusen Liu</a>, Yuzhong Guo, Li
 <br/><img src='/images/SIG26.png'>
 
 <p style="text-align: justify;">
-Coming soon!
+Simulating free-surface flows requires capturing the effects of incompressibility, viscosity, and surface tension. Existing particle-based methods often rely on operator splitting, which introduces coupling artifacts and limits stability. We propose a unified nonlinear optimization framework that achieves a strong coupling of these three effects within a single solver. By leveraging Peridynamics, we formulate the discretization of distinct fluid mechanisms under a consistent variational principle. Specifically, we recast fluid motion as a nonlinear variational optimization problem over particle positions, which is solved via the semi-implicit successive substitution method.
+<br/><br/>
+Moreover, the framework incorporates separate treatments for bulk and shear viscosity, allowing for more refined control of different viscous fluid behaviors. To the best of our knowledge, this is the first particle-based unified solver capable of fully resolving the interdependence of incompressibility, viscosity, and surface tension, thereby significantly enhancing stability in complex simulations of free-surface flows.
 </p>
