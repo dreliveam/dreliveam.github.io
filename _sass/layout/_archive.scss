@@ -48,13 +48,26 @@
   }
 }
 
-/* Reduce line spacing for publication items */
+/* Card-style list items */
 .list__item {
   .archive__item {
+    background: var(--global-card-bg-color);
+    border: 1px solid var(--global-card-border-color);
+    border-radius: $border-radius;
+    padding: 1.2em 1.5em;
+    margin-bottom: 0.8em;
+    box-shadow: $box-shadow;
+    transition: box-shadow 0.25s ease, transform 0.25s ease, border-color 0.25s ease;
+
+    &:hover {
+      box-shadow: $box-shadow-hover;
+      border-color: var(--global-link-color);
+    }
+
     p {
       margin-bottom: 0.3em;
     }
-    
+
     .page__meta {
       margin-bottom: 0.2em;
     }

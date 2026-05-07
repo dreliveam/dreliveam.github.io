@@ -17,9 +17,10 @@ $success-color              : #62c462;
 $warning-color              : #f89406;
 
 /* Other basic settings for the template */
-$border-radius              : 4px;
-$box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
-$global-transition          : all 0.2s ease-in-out;
+$border-radius              : 6px;
+$box-shadow                 : 0 1px 3px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.06);
+$box-shadow-hover           : 0 4px 12px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06);
+$global-transition          : all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 $masthead-height            : 70px;
 $navicon-width              : 28px;
 $navicon-height             : 4px;
@@ -29,19 +30,28 @@ $sidebar-screen-min-width   : 1024px;
 /* Default light theme for the site */
 :root {
     --global-base-color                 : #{$gray};
-    --global-bg-color                   : #fff;
-    --global-footer-bg-color            : #f2f3f3;
+    --global-bg-color                   : #ffffff;
+    --global-footer-bg-color            : #f8f9fa;
     --global-border-color               : #{$lighter-gray};
-    --global-dark-border-color          : #bdc1c4;
-    --global-code-background-color      : #fafafa;
+    --global-dark-border-color          : #d1d5d8;
+    --global-code-background-color      : #f8f9fa;
     --global-code-text-color            : #{$darker-gray};
     --global-fig-caption-color          : mix(#fff,  #{$dark-gray}, 25%);
-    --global-link-color                 : #52adc8;
-    --global-link-color-hover           : mix(#000, #2f7f93, 25%);
+    --global-link-color                 : #3d8b9d;
+    --global-link-color-hover           : #1a5f6e;
     --global-link-color-visited         : mix(#fff, #2f7f93, 25%);  
     --global-masthead-link-color        : #{$dark-gray};
-    --global-masthead-link-color-hover  : mix(#000, #{$gray}, 25%);    
-    --global-text-color                 : #{$dark-gray};
-    --global-text-color-light           : #{$light-gray};
+    --global-masthead-link-color-hover  : #1a5f6e;    
+    --global-text-color                 : #2d3236;
+    --global-text-color-light           : #7a8288;
     --global-thead-color                : #{$lighter-gray};
+    --global-card-bg-color              : #ffffff;
+    --global-card-border-color          : #e8eaec;
+    --global-accent-color               : #3d8b9d;
+}
+
+/* Smooth scrollbar for light theme */
+:root {
+    scrollbar-width: thin;
+    scrollbar-color: #c4c9cc #f0f1f2;
 }

@@ -24,9 +24,10 @@ $success-color              : #62c462;
 $warning-color              : #f89406;
 
 /* Other basic settings for the template */
-$border-radius              : 4px;
-$box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
-$global-transition          : all 0.2s ease-in-out;
+$border-radius              : 6px;
+$box-shadow                 : 0 1px 3px rgba(0, 0, 0, 0.2), 0 1px 2px rgba(0, 0, 0, 0.15);
+$box-shadow-hover           : 0 4px 12px rgba(0, 0, 0, 0.3), 0 2px 4px rgba(0, 0, 0, 0.2);
+$global-transition          : all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 $masthead-height            : 70px;
 $navicon-width              : 28px;
 $navicon-height             : 4px;
@@ -40,15 +41,24 @@ html[data-theme="dark"] {
     --global-footer-bg-color            : #{$background};
     --global-border-color               : #{$light-gray};
     --global-dark-border-color          : #{$background-light};
-    --global-code-background-color      : #fafafa;
-    --global-code-text-color            : #{$darker-gray};
+    --global-code-background-color      : #3a3a3a;
+    --global-code-text-color            : #e0e0e0;
     --global-fig-caption-color          : #{$light-gray};
-    --global-link-color                 : #{$link};
-    --global-link-color-hover           : #{$link-dark};
+    --global-link-color                 : #4fc3e8;
+    --global-link-color-hover           : #80ddf5;
     --global-link-color-visited         : #{$link-light};
     --global-masthead-link-color        : #{$text};
     --global-masthead-link-color-hover  : #{$background-light};
-    --global-text-color                 : #{$text};
+    --global-text-color                 : #e8e8e8;
     --global-text-color-light           : #{$light-gray};
     --global-thead-color                : #{$background-lighter};
+    --global-card-bg-color              : #525252;
+    --global-card-border-color          : #606468;
+    --global-accent-color               : #4fc3e8;
+}
+
+/* Smooth scrollbar for dark theme */
+html[data-theme="dark"] {
+    scrollbar-width: thin;
+    scrollbar-color: #606468 #3a3a3a;
 }
