@@ -8,6 +8,9 @@ venue: "Eurographics 2026 / Computer Graphics Forum, 2026: e70333."
 citation: "Eurographics 2026 / Computer Graphics Forum, 2026: e70333."
 excerpt: "**Junyuan Liu,  <a href='https://dreliveam.github.io/'>Shusen Liu</a>, Yuzhong Guo, Ruikai Liang, Yin Li, <a href='https://peridynamics.com/'>Xiaowei He</a>**. <br/><img src='/images/EG26.jpg'>"
 paperurl: 'http://dreliveam.github.io/files/2026-Liu-SAM.pdf'
+sourcecodeurl: 'https://github.com/peridyno/peridyno'
+bibtexurl: 'http://dreliveam.github.io/files/bibtex_EG2026_SemiAnalytical.bib'
+doi: 'https://doi.org/10.1111/cgf.70333'
 year: 2026
 ---
 

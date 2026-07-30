@@ -7,6 +7,9 @@ date: 2026-07-1
 venue: "ACM SIGGRAPH 2026, Conference paper"
 citation: "ACM SIGGRAPH 2026, Conference paper"
 paperurl: 'http://dreliveam.github.io/files/2026-Liu-SAM.pdf'
+sourcecodeurl: 'https://github.com/peridyno/peridyno'
+bibtexurl: 'http://dreliveam.github.io/files/bibtex_SIGGRAPH2026_Nonlocal.bib'
+doi: 'https://doi.org/10.1145/3799902.3811196'
 excerpt: "**<a href='https://dreliveam.github.io/'>Shusen Liu</a>, Yuzhong Guo, Lixin Ren, Ying Qiao, <a href='https://peridynamics.com/'>Xiaowei He</a>**. <br/><img src='/images/SIG26.jpg'>"
 year: 2026
 ---

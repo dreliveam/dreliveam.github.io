@@ -1,9 +1,14 @@
-@article{He2025SISPH,
-  title={A Semi-Implicit SPH Method for Compressible and Incompressible Flows with Convergence Guarantees},
-  author={Xiaowei He and Shusen Liu and Yuzhong Guo and Ying Qiao},
-  journal={Computer Graphics Forum},
-  year={2025},
-  volume={44},
-  number={2},
-  pages={e70043}
+@article{10.1111/cgf.70043,
+  author = {He, Xiaowei and Liu, Shusen and Guo, Yuzhong and Shi, Jian and Qiao, Ying},
+  title = {A Semi-Implicit SPH Method for Compressible and Incompressible Flows with Improved Convergence},
+  journal = {Computer Graphics Forum},
+  volume = {44},
+  number = {2},
+  pages = {e70043},
+  keywords = {CCS Concepts, Computing methodologies -> Physical simulation},
+  doi = {10.1111/cgf.70043},
+  url = {https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.70043},
+  eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.70043},
+  abstract = {In simulating fluids using position-based dynamics, the accuracy and robustness depend on numerous numerical parameters, including the time step size, iteration count, and particle size, among others. This complexity can lead to unpredictable control of simulation behaviors. In this paper, we first reformulate the problem of enforcing fluid compressibility/incompressibility into a nonlinear optimization problem, and then introduce a semi-implicit successive substitution method (SISSM) to solve the nonlinear optimization problem by adjusting particle positions in parallel. In contrast to calculating an intermediate variable, such as pressure, to enforce fluid incompressibility within the position-based dynamics (PBD) framework, the proposed semi-implicit approach eliminates the necessity of such calculations. Instead, it directly employs successive substitution of particle positions to correct density errors. This method exhibits reduced dependency to numerical parameters, such as particle size and time step variations, and improves consistency and stability in simulating fluids that range from highly compressible to nearly incompressible. We validates the effectiveness of applying a variety of different techniques in accelerating the convergence rate.},
+  year = {2025}
 }

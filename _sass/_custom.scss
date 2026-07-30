@@ -26,8 +26,7 @@ body { background: #f8faff; color: var(--personal-ink); font-size: 16px; }
 .home-hero { position: relative; display: block; min-height: 0; margin-bottom: 3.5rem; overflow: hidden; padding: 3.25rem; border: 1px solid rgba(49, 87, 213, 0.12); border-radius: 28px; background: linear-gradient(135deg, #fff 0%, #f2f5ff 100%); box-shadow: var(--personal-shadow); }
 .home-hero::before { content: ""; position: absolute; width: 280px; height: 280px; left: -140px; bottom: -160px; border-radius: 50%; background: #dce5ff; }
 .home-hero__copy { position: relative; z-index: 1; }
-.eyebrow { margin: 0 0 1rem; color: var(--personal-accent); font-size: 0; font-weight: 800; letter-spacing: 0.14em; text-transform: uppercase; }
-.eyebrow::after { content: "Computer Graphics · Physical Simulation · Research"; font-size: 0.72rem; }
+.eyebrow { margin: 0 0 1rem; color: var(--personal-accent); font-size: 0.72rem; font-weight: 800; letter-spacing: 0.14em; text-transform: uppercase; }
 .home-hero h1 { max-width: 620px; margin: 0; color: var(--personal-ink); font-size: clamp(2rem, 3.5vw, 3rem); line-height: 1.06; letter-spacing: -0.055em; }
 .home-hero__lead { max-width: 610px; margin: 1.45rem 0 0; color: var(--personal-muted); font-size: 1rem; line-height: 1.7; }
 .home-hero__actions { display: flex; flex-wrap: wrap; align-items: center; gap: 1rem; margin-top: 2rem; }
