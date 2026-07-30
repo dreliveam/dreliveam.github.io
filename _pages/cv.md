@@ -38,7 +38,7 @@ Public Service
   * SIGGRAPH.
   * 中国仿真大会
 
-Hobies
+Hobbies
 ======
 * I love music (Rock, Jazz, etc.), and I also like to play electronic keyboard, drums, and guitar. 
 * I enjoy reading books about history, anthropology, physics, astronomy, science fiction, etc.

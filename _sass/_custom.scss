@@ -1,0 +1,100 @@
+/* Personal visual layer: keeps the Academic Pages structure, adds a calmer research-portfolio feel. */
+:root {
+  --personal-ink: #172033;
+  --personal-muted: #667085;
+  --personal-accent: #3157d5;
+  --personal-accent-dark: #243da0;
+  --personal-soft: #eef2ff;
+  --personal-line: rgba(23, 32, 51, 0.1);
+  --personal-shadow: 0 18px 50px rgba(31, 48, 91, 0.1);
+}
+
+html { scroll-behavior: smooth; }
+body { background: #f8faff; color: var(--personal-ink); font-size: 16px; }
+.masthead { background: rgba(248, 250, 255, 0.9); border-bottom: 1px solid var(--personal-line); box-shadow: 0 8px 30px rgba(31, 48, 91, 0.06); backdrop-filter: blur(16px); }
+.masthead::after { display: none; }
+.masthead__inner-wrap { padding: 0.85em 1.5em; }
+.masthead__menu-item--lg a { color: var(--personal-ink); letter-spacing: -0.03em; }
+.masthead__menu-item:not(.masthead__menu-item--lg) a { color: var(--personal-muted); font-size: 0.88em; font-weight: 600; letter-spacing: 0.02em; }
+.masthead__menu-item a:hover { color: var(--personal-accent); }
+
+#main { max-width: 1360px; margin: 0 auto; padding: 7rem 2rem 3rem; }
+.home-page #main { display: grid; grid-template-columns: 270px minmax(0, 1fr); gap: 4.5rem; }
+.home-page .sidebar { grid-column: 1; width: auto; }
+.home-page .archive { grid-column: 2; width: auto; max-width: 900px; padding: 0; }
+
+.home-hero { position: relative; display: block; min-height: 0; margin-bottom: 3.5rem; overflow: hidden; padding: 3.25rem; border: 1px solid rgba(49, 87, 213, 0.12); border-radius: 28px; background: linear-gradient(135deg, #fff 0%, #f2f5ff 100%); box-shadow: var(--personal-shadow); }
+.home-hero::before { content: ""; position: absolute; width: 280px; height: 280px; left: -140px; bottom: -160px; border-radius: 50%; background: #dce5ff; }
+.home-hero__copy { position: relative; z-index: 1; }
+.eyebrow { margin: 0 0 1rem; color: var(--personal-accent); font-size: 0; font-weight: 800; letter-spacing: 0.14em; text-transform: uppercase; }
+.eyebrow::after { content: "Computer Graphics · Physical Simulation · Research"; font-size: 0.72rem; }
+.home-hero h1 { max-width: 620px; margin: 0; color: var(--personal-ink); font-size: clamp(2rem, 3.5vw, 3rem); line-height: 1.06; letter-spacing: -0.055em; }
+.home-hero__lead { max-width: 610px; margin: 1.45rem 0 0; color: var(--personal-muted); font-size: 1rem; line-height: 1.7; }
+.home-hero__actions { display: flex; flex-wrap: wrap; align-items: center; gap: 1rem; margin-top: 2rem; }
+.button { display: inline-flex; align-items: center; gap: 0.75rem; border-radius: 999px; padding: 0.78rem 1.15rem; font-size: 0.84rem; font-weight: 700; text-decoration: none !important; transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease; }
+.button:hover { transform: translateY(-2px); }
+.button--primary { color: #fff !important; background: var(--personal-accent); box-shadow: 0 8px 18px rgba(49, 87, 213, 0.25); }
+.button--primary:hover { background: var(--personal-accent-dark); }
+.button--text { color: var(--personal-accent) !important; }
+.button--primary span { font-size: 0; }
+.button--primary span::after { content: "→"; font-size: 1rem; }
+
+
+.home-note { margin: 0 0 2.5rem; padding: 1.15rem 1.35rem; border-left: 3px solid #f0b35a; color: var(--personal-muted); background: rgba(255, 255, 255, 0.7); font-size: 0.94rem; }
+.home-note a { color: var(--personal-accent); font-weight: 700; }
+.home-page .archive > h1 { margin: 0 0 1.5rem; color: var(--personal-ink); font-size: 1.6rem; letter-spacing: -0.04em; }
+.home-page .archive > h1::after { content: ""; display: block; width: 44px; margin-top: 0.7rem; border-bottom: 3px solid #f0b35a; }
+.home-page .list__item .archive__item { border: 1px solid var(--personal-line); border-radius: 16px; background: rgba(255, 255, 255, 0.85); box-shadow: none; }
+.home-page .list__item .archive__item:hover { transform: translateY(-3px); box-shadow: 0 12px 28px rgba(31, 48, 91, 0.1); }
+.home-page .archive__item-title a { color: var(--personal-ink); }
+.home-page .archive__item-title a:hover { color: var(--personal-accent); }
+.sidebar .author__avatar img { border-color: #dce5ff; box-shadow: 0 12px 28px rgba(49, 87, 213, 0.13); }
+.sidebar .author__name { color: var(--personal-ink); letter-spacing: -0.03em; }
+.sidebar .author__bio { color: var(--personal-muted); line-height: 1.65; }
+.sidebar .author__urls a { color: var(--personal-muted); }
+.sidebar .author__urls a:hover { color: var(--personal-accent); background: var(--personal-soft); }
+
+/* The theme's desktop sidebar is fixed by default. On the redesigned home page
+   it must remain part of the layout so the article never slides underneath it. */
+@media (min-width: 926px) {
+  .home-page #main {
+    grid-template-columns: minmax(240px, 270px) minmax(0, 1fr);
+    align-items: start;
+  }
+  .home-page .sidebar {
+    position: sticky;
+    top: 6rem;
+    width: 100%;
+    max-width: 270px;
+    height: calc(100vh - 8rem);
+    margin: 0;
+    padding-top: 0;
+    overflow-y: auto;
+    float: none;
+  }
+  .home-page .archive {
+    grid-column: 2;
+    min-width: 0;
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    padding: 0;
+    float: none;
+  }
+}
+
+@media (max-width: 925px) {
+  #main, .home-page #main { display: block; padding: 6rem 1.25rem 2rem; }
+  .home-page .sidebar { margin-bottom: 2rem; }
+  .home-hero { padding: 2rem; }
+  .home-page .archive { max-width: none; }
+}
+@media (max-width: 600px) {
+  .masthead__inner-wrap { padding: 0.7em 1rem; }
+  .home-hero { min-height: 0; margin-bottom: 2.5rem; border-radius: 20px; padding: 1.5rem; }
+  .home-hero h1 { font-size: 2.1rem; }
+  .home-hero__lead { font-size: 1rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; transition-duration: 0.01ms !important; }
+}

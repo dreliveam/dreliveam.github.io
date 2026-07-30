@@ -6,6 +6,7 @@ permalink: /publication/SIGGRAPH2026_Nonlocal
 date: 2026-07-1
 venue: "ACM SIGGRAPH 2026, Conference paper"
 citation: "ACM SIGGRAPH 2026, Conference paper"
+paperurl: 'http://dreliveam.github.io/files/2026-Liu-SAM.pdf'
 excerpt: "**<a href='https://dreliveam.github.io/'>Shusen Liu</a>, Yuzhong Guo, Lixin Ren, Ying Qiao, <a href='https://peridynamics.com/'>Xiaowei He</a>**. <br/><img src='/images/SIG26.jpg'>"
 year: 2026
 ---

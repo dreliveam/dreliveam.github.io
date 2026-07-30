@@ -1,15 +1,28 @@
 ---
 permalink: /
+classes: home-page
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-I am a Research Assistant at the Human-Computer Interaction (HCI) Laboratory, Institute of Software, Chinese Academy of Sciences, Beijing, China. My research focuses on computer graphics, with a particular emphasis on physical simulation. I am also one of the developers of the general physics engine project - [PeriDyno](https://github.com/peridyno) (hosted by [Xiaowei He](https://peridynamics.com/)).
+<section class="home-hero">
+  <div class="home-hero__copy">
+    <p class="eyebrow">Computer Graphics · Physical Simulation · Research</p>
+    <p class="home-hero__lead">I am a Research Assistant at the HCI Laboratory, Institute of Software, Chinese Academy of Sciences. My work explores computer graphics, computational physics, and fluid simulation.</p>
+    <p class="home-hero__lead home-hero__project">I am also one of the developers of <strong><a href="https://github.com/peridyno">PeriDyno</a></strong>, a general physics engine project hosted by <strong><a href="https://peridynamics.com/">Xiaowei He</a></strong>.</p>
+    <div class="home-hero__actions">
+      <a class="button button--primary" href="/publications/">Explore publications <span aria-hidden="true">→</span></a>
+      <a class="button button--text" href="/cv/">Read my profile</a>
+    </div>
+  </div>
+</section>
+
+ 
 
 
-Pub.
+Selected publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
@@ -42,7 +55,7 @@ Public Service
   * SIGGRAPH.
   * 中国仿真大会
 
-Hobies
+Hobbies
 ======
 * I love music (Rock, Jazz, etc.), and I also like to play electronic keyboard, drums, and guitar. 
 * I enjoy reading books about history, anthropology, physics, astronomy, science fiction, etc.

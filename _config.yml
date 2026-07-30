@@ -23,7 +23,7 @@ baseurl                  : "" # the subpath of your site, e.g. "/blog"
 author:
   # Biographic information
   avatar           : "LiuShusen.png"
-  name             : "Shusen Liu (刘树森)"
+  name             : "Shusen Liu"
   pronouns         : # example: "she/her"  
   bio              : "Focusing on Computer Graphics, Computational Physics and Fluid Simulation."
   location         : "Beijing, China"
