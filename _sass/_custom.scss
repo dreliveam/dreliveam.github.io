@@ -11,6 +11,9 @@
 
 html { scroll-behavior: smooth; }
 body { background: #f8faff; color: var(--personal-ink); font-size: 16px; }
+.site-watermark { position: fixed; left: 50%; top: 50%; z-index: 0; display: flex; flex-direction: column; align-items: center; transform: translate(-50%, -50%) rotate(-45deg); pointer-events: none; color: rgba(91, 157, 190, 0.08); font-size: clamp(6rem, 18vw, 16rem); font-weight: 700; letter-spacing: 0.16em; line-height: 1; white-space: nowrap; }
+.site-watermark small { margin-top: 0.35em; font-size: 0.5em; font-weight: 600; letter-spacing: 0.42em; }
+#main, .page__footer { position: relative; z-index: 1; }
 .masthead { background: rgba(248, 250, 255, 0.9); border-bottom: 1px solid var(--personal-line); box-shadow: 0 8px 30px rgba(31, 48, 91, 0.06); backdrop-filter: blur(16px); }
 .masthead::after { display: none; }
 .masthead__inner-wrap { padding: 0.85em 1.5em; }
@@ -176,6 +179,7 @@ html[data-theme="dark"] .publications-page .archive__item > p:last-child a:hover
 
 /* Keep the redesigned home page in sync with the theme toggle. */
 html[data-theme="dark"] body { background: #141923; color: #e7ebf3; }
+html[data-theme="dark"] .site-watermark { color: rgba(143, 220, 242, 0.07); }
 html[data-theme="dark"] .masthead { background: rgba(20, 25, 35, 0.9); border-bottom-color: rgba(231, 235, 243, 0.12); box-shadow: 0 8px 30px rgba(0, 0, 0, 0.22); }
 html[data-theme="dark"] .masthead__menu-item { background: transparent; }
 html[data-theme="dark"] .masthead__menu-item--lg a { color: #f4f6fb; }
