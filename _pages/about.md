@@ -54,7 +54,7 @@ Public Service
 * Reviewer
   * SIGGRAPH.
   * 中国仿真大会
-  * VRHI
+  * Virtual Reality & Intelligent Hardware
   * Pacific Graphics
   * Computer Graphics Forum
   * Computers & Graphics
