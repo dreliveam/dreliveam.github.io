@@ -15,6 +15,18 @@
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     <li>
+    {% assign thumb_class = "" %}
+    {% if post.title contains "Research on Numerical Stability" or post.url contains "TVCG2022_SIMPLE" %}
+      {% assign thumb_class = " publication-thumb--left" %}
+    {% endif %}
+    {% if post.excerpt contains "<img" %}
+      {% assign thumb_path = post.excerpt | split: "src='" | last | split: "'" | first %}
+      <a class="publication-thumb{{ thumb_class }}" href="{{ base_path }}{{ post.url }}" aria-label="Open {{ title }}">
+        <img src="{{ thumb_path | prepend: base_path }}" alt="" loading="lazy" decoding="async" width="96" height="72">
+      </a>
+    {% else %}
+      <a class="publication-thumb publication-thumb--placeholder{{ thumb_class }}" href="{{ base_path }}{{ post.url }}" aria-label="Open {{ title }}"><span>RESEARCH</span></a>
+    {% endif %}
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
         <img src=
@@ -33,6 +45,10 @@
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h3>
+    {% if post.excerpt %}
+      {% assign author_line = post.excerpt | split: "<br" | first %}
+      <div class="publication-authors">{{ author_line | markdownify }}</div>
+    {% endif %}
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
