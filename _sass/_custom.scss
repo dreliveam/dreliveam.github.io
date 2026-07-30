@@ -97,3 +97,26 @@ body { background: #f8faff; color: var(--personal-ink); font-size: 16px; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; transition-duration: 0.01ms !important; }
 }
+
+/* Keep the redesigned home page in sync with the theme toggle. */
+html[data-theme="dark"] body { background: #141923; color: #e7ebf3; }
+html[data-theme="dark"] .masthead { background: rgba(20, 25, 35, 0.9); border-bottom-color: rgba(231, 235, 243, 0.12); box-shadow: 0 8px 30px rgba(0, 0, 0, 0.22); }
+html[data-theme="dark"] .masthead__menu-item { background: transparent; }
+html[data-theme="dark"] .masthead__menu-item--lg a { color: #f4f6fb; }
+html[data-theme="dark"] .masthead__menu-item:not(.masthead__menu-item--lg) a { color: #aeb8ca; }
+html[data-theme="dark"] .masthead__menu-item a:hover { color: #8fdcf2; }
+html[data-theme="dark"] .home-hero { border-color: rgba(143, 220, 242, 0.18); background: linear-gradient(135deg, #1b2434 0%, #202b43 100%); box-shadow: 0 18px 50px rgba(0, 0, 0, 0.24); }
+html[data-theme="dark"] .home-hero h1 { color: #f4f6fb; }
+html[data-theme="dark"] .home-hero__lead { color: #b5bfd0; }
+html[data-theme="dark"] .home-note { color: #b5bfd0; background: rgba(31, 41, 58, 0.8); }
+html[data-theme="dark"] .button--primary { color: #101722 !important; background: #8fdcf2; box-shadow: 0 8px 18px rgba(0, 0, 0, 0.24); }
+html[data-theme="dark"] .button--primary:hover { background: #b6edfb; }
+html[data-theme="dark"] .button--text { color: #8fdcf2 !important; }
+html[data-theme="dark"] .home-page .archive > h1 { color: #f4f6fb; }
+html[data-theme="dark"] .home-page .list__item .archive__item { border-color: rgba(231, 235, 243, 0.12); background: #1b2434; }
+html[data-theme="dark"] .home-page .archive__item-title a { color: #edf2fb; }
+html[data-theme="dark"] .home-page .archive__item-title a:hover { color: #8fdcf2; }
+html[data-theme="dark"] .sidebar .author__name { color: #f4f6fb; }
+html[data-theme="dark"] .sidebar .author__bio,
+html[data-theme="dark"] .sidebar .author__urls a { color: #b5bfd0; }
+html[data-theme="dark"] .sidebar .author__urls a:hover { color: #8fdcf2; background: rgba(143, 220, 242, 0.12); }
