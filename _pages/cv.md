@@ -37,6 +37,10 @@ Public Service
 * Reviewer
   * SIGGRAPH.
   * 中国仿真大会
+  * VRHI
+  * Pacific Graphics
+  * Computer Graphics Forum
+  * Computers & Graphics
 
 Hobbies
 ======
