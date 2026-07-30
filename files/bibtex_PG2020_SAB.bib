@@ -1,9 +1,14 @@
-@article{Chang2020SAB,
-  title={Semi-analytical Solid Boundary Conditions for Free Surface Flows},
-  author={Yue Chang and Shusen Liu and Xiaowei He and Sheng Li and Guoping Wang},
-  journal={Computer Graphics Forum},
-  year={2020},
-  volume={39},
-  number={7},
-  pages={131-141}
+@article{10.1111/cgf.14132,
+  author = {Chang, Yue and Liu, Shusen and He, Xiaowei and Li, Sheng and Wang, Guoping},
+  title = {Semi-analytical Solid Boundary Conditions for Free Surface Flows},
+  journal = {Computer Graphics Forum},
+  volume = {39},
+  number = {7},
+  pages = {131--141},
+  keywords = {CCS Concepts, Computing methodologies -> Physical simulation},
+  doi = {10.1111/cgf.14132},
+  url = {https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.14132},
+  eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.14132},
+  abstract = {The treatment of solid boundary conditions remains one of the most challenging parts in the SPH method. We present a semi-analytical approach to handle complex solid boundaries of arbitrary shape. Instead of calculating a renormalizing factor for the particle near the boundary, we propose to calculate the volume integral inside the solid boundary under the local spherical frame of a particle. By converting the volume integral into a surface integral, a computer aided design (CAD) mesh file representing the boundary can be naturally integrated for particle simulations. To accelerate the search for a particle's neighboring triangles, a uniform grid is applied to store indices of intersecting triangles. The new semi-analytical solid boundary handling approach is integrated into a position-based method [MM13] as well as a projection-based [HWW*20] to demonstrate its effectiveness in handling complex boundaries. Experiments show that our method is able to achieve comparable results with those simulated using ghost particles. In addition, since our method requires no boundary particles for deforming surfaces, our method is flexible enough to handle complex solid boundaries, including sharp corners and shells.},
+  year = {2020}
 }
