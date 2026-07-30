@@ -25,7 +25,11 @@
         <img src="{{ thumb_path | prepend: base_path }}" alt="" loading="lazy" decoding="async" width="96" height="72">
       </a>
     {% else %}
-      <a class="publication-thumb publication-thumb--placeholder{{ thumb_class }}" href="{{ base_path }}{{ post.url }}" aria-label="Open {{ title }}"><span>RESEARCH</span></a>
+      {% assign label_class = "" %}
+      {% if post.thumbnail_label == "Engine" or post.thumbnail_label == "SPH" %}
+        {% assign label_class = " publication-thumb--label-large" %}
+      {% endif %}
+      <a class="publication-thumb publication-thumb--placeholder{{ thumb_class }}{{ label_class }}" href="{{ base_path }}{{ post.url }}" aria-label="Open {{ title }}"><span>{{ post.thumbnail_label | default: "RESEARCH" }}</span></a>
     {% endif %}
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">

@@ -62,6 +62,7 @@ body { background: #f8faff; color: var(--personal-ink); font-size: 16px; }
 .home-page .publication-thumb--left img { object-position: left center; }
 .home-page .publication-thumb:hover img { transform: scale(1.05); }
 .home-page .publication-thumb--placeholder { display: grid; place-items: center; border: 1px solid rgba(49, 87, 213, 0.15); background: radial-gradient(circle at 25% 25%, #fff 0 5%, transparent 6%), linear-gradient(135deg, #dce5ff, #eef2ff 55%, #b9c8ff); background-size: 18px 18px, auto; color: var(--personal-accent); font-size: 0.5rem; font-weight: 800; letter-spacing: 0.12em; text-decoration: none; }
+.home-page .publication-thumb--label-large { font-size: 1.5rem; letter-spacing: 0.06em; }
 .home-page .publication-authors { grid-column: 2; min-width: 0; margin: 0 0 0.2rem; color: var(--personal-muted); font-size: 0.76rem; line-height: 1.4; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .home-page .publication-authors p { margin: 0; }
 .home-page .publication-authors a { color: inherit; }

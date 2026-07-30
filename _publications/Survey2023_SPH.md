@@ -3,6 +3,7 @@ title: "Survey on fluid simulation using smoothed particle hydrodynamics<br>光�
 collection: publications
 category: manuscripts
 permalink: /publication/survey2023sph
+thumbnail_label: "SPH"
 excerpt: "**[Shusen Liu](https://dreliveam.github.io/), [Xiaowei He](https://peridynamics.com/), [Wencheng Wang](https://lcs.ios.ac.cn/~whn/), Enhua Wu**. "
 date: 2023-1-1
 venue: 'Journal of Software (软件学报), 2022, 35(1): 481-512'
