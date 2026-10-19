@@ -92,8 +92,8 @@
   }
 
   img {
-    max-width: 175px;
-    border-radius: 50%;
+    max-width: 140px;
+    border-radius: 0;
     transition: box-shadow 0.3s ease;
 
     @include breakpoint($large) {

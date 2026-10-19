@@ -24,6 +24,7 @@ author:
   # Biographic information
   avatar           : "LiuShusen-small.webp"
   name             : "Shusen Liu"
+  name_zh          : "刘树森"
   pronouns         : # example: "she/her"  
   bio              : "Focusing on Computer Graphics, Computational Physics and Fluid Simulation."
   location         : "Beijing, China"
