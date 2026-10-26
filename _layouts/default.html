@@ -5,13 +5,13 @@ layout: compress
 {% include base_path %}
 
 <!doctype html>
-<html lang="{{ site.locale | slice: 0,2 }}" class="no-js"{% if site.site_theme == "dark" %} data-theme="dark"{% endif %}>
+<html lang="{% if page.lang == 'zh' %}zh-CN{% else %}{{ site.locale | slice: 0,2 }}{% endif %}" class="no-js"{% if site.site_theme == "dark" %} data-theme="dark"{% endif %}>
   <head>
     {% include head.html %}
     {% include head/custom.html %}
   </head>
 
-  <body class="{% if page.classes %}{{ page.classes | join: ' ' }}{% endif %}{% if page.collection %} collection-{{ page.collection }}{% endif %}">
+  <body class="{% if page.classes %}{{ page.classes | join: ' ' }}{% endif %}{% if page.collection %} collection-{{ page.collection }}{% endif %}{% if page.lang == 'zh' %} language-zh{% endif %}">
 
     {% include browser-upgrade.html %}
     {% include masthead.html %}
