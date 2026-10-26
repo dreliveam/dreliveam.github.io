@@ -35,6 +35,7 @@ Research Projects
 Public Service
 ======
 * Reviewer
+  * Eurographics.
   * SIGGRAPH.
   * 中国仿真大会
   * Virtual Reality & Intelligent Hardware
