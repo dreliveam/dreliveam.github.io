@@ -404,6 +404,20 @@ html[data-cyberpunk="on"] .collection-publications .page__inner-wrap > header > 
   background: rgba(5, 10, 24, 0.94);
 }
 
+html[data-cyberpunk="on"] .publications-page .archive__item-excerpt img,
+html[data-cyberpunk="on"] .collection-publications .page__content img {
+  box-sizing: border-box;
+  border: 5px solid transparent;
+  background: linear-gradient(#081020, #081020) padding-box, linear-gradient(120deg, #67f5ff, #4d7cff, #a58aff, #ff48ce, #67f5ff) border-box;
+  background-size: auto, 260% 260%;
+  background-position: 0 0, 0% 50%;
+  animation: cyberpunk-publication-frame 6s linear infinite;
+  box-shadow: 0 0 12px rgba(103, 245, 255, 0.48), 0 0 30px rgba(98, 105, 255, 0.28), 0 0 42px rgba(255, 72, 206, 0.18);
+}
+
+html[data-cyberpunk="on"] .publications-page .archive__item-excerpt img { border-radius: 12px; }
+html[data-cyberpunk="on"] .collection-publications .page__content img { border-radius: 18px; }
+
 html[data-cyberpunk="on"] .home-page .list__item .archive__item:hover,
 html[data-cyberpunk="on"] .publications-page .list__item .archive__item:hover {
   border-color: rgba(255, 72, 206, 0.44);
@@ -574,6 +588,11 @@ html[data-cyberpunk="on"] .language-switch__control .language-switch__current { 
   to { background-position: 100% 50%; }
 }
 
+@keyframes cyberpunk-publication-frame {
+  from { background-position: 0 0, 0% 50%; }
+  to { background-position: 0 0, 100% 50%; }
+}
+
 @media (max-width: 600px) {
   #site-nav { width: calc(100% - 54px); min-width: 0; }
   .masthead .cyberpunk-toggle { gap: 0.3rem; margin: 0 0.28rem; padding: 0.36rem 0.4rem; }
@@ -585,6 +604,8 @@ html[data-cyberpunk="on"] .language-switch__control .language-switch__current { 
   html[data-cyberpunk="on"] body::after,
   html[data-cyberpunk="on"] .site-watermark > span,
   html[data-cyberpunk="on"] .site-watermark small,
+  html[data-cyberpunk="on"] .publications-page .archive__item-excerpt img,
+  html[data-cyberpunk="on"] .collection-publications .page__content img,
   html[data-cyberpunk="on"] #main .page__title,
   html[data-cyberpunk="on"] .home-page .archive__item-title a,
   html[data-cyberpunk="on"] .publications-page .archive__item-title a,
