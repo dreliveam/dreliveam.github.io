@@ -12,6 +12,7 @@
     {% else %}
     	<img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}" width="300" height="384" loading="lazy" fetchpriority="high" />
     {% endif %}
+    <img src="{{ '/images/cyberpunk-cat-avatar.webp' | prepend: base_path }}" class="cyberpunk-avatar" alt="{{ author.name }}" width="300" height="300" loading="lazy" />
   </div>
 
   <div class="author__content">

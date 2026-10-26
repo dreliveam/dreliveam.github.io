@@ -7,6 +7,13 @@ layout: compress
 <!doctype html>
 <html lang="{% if page.lang == 'zh' %}zh-CN{% else %}{{ site.locale | slice: 0,2 }}{% endif %}" class="no-js"{% if site.site_theme == "dark" %} data-theme="dark"{% endif %}>
   <head>
+    <script>
+      try {
+        if (localStorage.getItem('cyberpunk') === 'on') {
+          document.documentElement.setAttribute('data-cyberpunk', 'on');
+        }
+      } catch (error) {}
+    </script>
     {% include head.html %}
     {% include head/custom.html %}
   </head>
