@@ -283,7 +283,6 @@ html[data-cyberpunk="on"] .cyberpunk-lights {
   pointer-events: none;
 }
 
-html[data-cyberpunk="on"] .cyberpunk-lights::before,
 html[data-cyberpunk="on"] .cyberpunk-lights::before {
   position: absolute;
   inset: -20%;
@@ -313,6 +312,54 @@ html[data-cyberpunk="on"] .cyberpunk-lights .cyberpunk-firefly {
   animation-timing-function: ease-in-out, ease-in-out;
   animation-iteration-count: infinite, infinite;
   animation-direction: alternate, alternate;
+}
+
+html[data-cyberpunk="on"] .cyberpunk-meteors {
+  position: fixed;
+  inset: 0;
+  z-index: 2;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+html[data-cyberpunk="on"] .cyberpunk-meteors .cyberpunk-meteor {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  display: block;
+  height: 3px;
+  border-radius: 999px;
+  opacity: 0;
+  transform-origin: 0 50%;
+  background: linear-gradient(90deg, var(--meteor-core, #f3e8ff) 0%, var(--meteor-glow, rgba(166, 91, 255, 0.95)) 18%, rgba(166, 91, 255, 0.52) 42%, transparent 100%);
+  box-shadow: 0 0 7px var(--meteor-core, #f3e8ff), 0 0 18px var(--meteor-glow, rgba(166, 91, 255, 0.95)), 0 0 34px var(--meteor-glow, rgba(166, 91, 255, 0.95));
+  mix-blend-mode: screen;
+  pointer-events: none;
+  will-change: transform, opacity;
+}
+
+html[data-cyberpunk="on"] .cyberpunk-meteor::before {
+  position: absolute;
+  inset: -9px -2px;
+  content: "";
+  border-radius: inherit;
+  background: linear-gradient(90deg, var(--meteor-glow, rgba(166, 91, 255, 0.95)), transparent 100%);
+  filter: blur(12px);
+  opacity: 0.95;
+}
+
+html[data-cyberpunk="on"] .cyberpunk-meteor::after {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 12px;
+  height: 12px;
+  content: "";
+  border-radius: 50%;
+  background: radial-gradient(circle, #fff 0%, var(--meteor-core, #f3e8ff) 32%, var(--meteor-glow, rgba(166, 91, 255, 0.95)) 58%, transparent 75%);
+  box-shadow: 0 0 12px var(--meteor-core, #f3e8ff), 0 0 28px var(--meteor-glow, rgba(166, 91, 255, 0.95));
+  transform: translate(-50%, -50%);
 }
 
 html[data-cyberpunk="on"] .cyberpunk-firefly--1 {
@@ -575,6 +622,7 @@ html[data-cyberpunk="on"] .language-zh #main h1,
 html[data-cyberpunk="on"] #main h1#about-me,
 html[data-cyberpunk="on"] #main h1#e-mail,
 html[data-cyberpunk="on"] #main h1#education,
+html[data-cyberpunk="on"] #main h1#selected-publications,
 html[data-cyberpunk="on"] #main h1#work-experience,
 html[data-cyberpunk="on"] #main h1#invention-patents,
 html[data-cyberpunk="on"] #main h1#research-projects,
@@ -721,6 +769,7 @@ html[data-cyberpunk="on"] .language-switch__control .language-switch__current { 
   html[data-cyberpunk="on"] #main h1#about-me,
   html[data-cyberpunk="on"] #main h1#e-mail,
   html[data-cyberpunk="on"] #main h1#education,
+  html[data-cyberpunk="on"] #main h1#selected-publications,
   html[data-cyberpunk="on"] #main h1#work-experience,
   html[data-cyberpunk="on"] #main h1#invention-patents,
   html[data-cyberpunk="on"] #main h1#research-projects,
