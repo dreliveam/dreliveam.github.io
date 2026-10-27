@@ -11,7 +11,7 @@ redirect_from:
 
 About Me
 ======
-I am associate professor at the Institute of Software, Chinese Academy of Sciences. My research focuses on computer graphics, with a particular emphasis on physical simulation. I am also one of the developers of the general physics engine project - [PeriDyno](https://github.com/peridyno) (hosted by [Xiaowei He](https://peridynamics.com/)).
+I am an associate professor at the Institute of Software, Chinese Academy of Sciences. My research focuses on computer graphics, computational physics, and fluid simulation. I am also one of the developers of the general physics engine project - [PeriDyno](https://github.com/peridyno) (hosted by [Xiaowei He](https://peridynamics.com/)).
 
 Education
 ======
