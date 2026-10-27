@@ -15,6 +15,30 @@ var breaks = [];
 
 function updateNav() {
 
+  // On phones, keep every navigation link in a horizontally scrollable row
+  // instead of moving links into the hamburger dropdown.
+  if ($(window).width() <= 600) {
+    while ($hlinks.children().length > 0) {
+      if ($vlinks_persist_tail.children().length > 0) {
+        $hlinks.children().first().insertBefore($vlinks_persist_tail);
+      } else {
+        $hlinks.children().first().appendTo($vlinks);
+      }
+    }
+    breaks = [];
+    $btn.addClass("hidden").removeClass("close").attr("count", 0);
+    $hlinks.addClass("hidden");
+
+    var mobileMastheadHeight = $('.masthead').height();
+    $('body').css('padding-top', mobileMastheadHeight + 'px');
+    if ($(".author__urls-wrapper button").is(":visible")) {
+      $(".sidebar").css("padding-top", "");
+    } else {
+      $(".sidebar").css("padding-top", mobileMastheadHeight + "px");
+    }
+    return;
+  }
+
   var availableSpace = $btn.hasClass('hidden') ? $nav.width() : $nav.width() - $btn.width() - 30;
 
   // The visible list is overflowing the nav
@@ -74,9 +98,11 @@ function updateNav() {
 $(window).on('resize', function () {
   updateNav();
 });
-screen.orientation.addEventListener("change", function () {
-  updateNav();
-});
+if (screen.orientation && screen.orientation.addEventListener) {
+  screen.orientation.addEventListener("change", function () {
+    updateNav();
+  });
+}
 
 $btn.on('click', function () {
   $hlinks.toggleClass('hidden');

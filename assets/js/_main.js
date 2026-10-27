@@ -2,8 +2,7 @@
    Various functions that we want to use within the template
    ========================================================================== */
 
-// Determine the expected state of the theme toggle, which can be "dark", "light", or
-// "system". Default is "system".
+// Determine the expected theme setting, which can be "dark", "light", or "system".
 let determineThemeSetting = () => {
   let themeSetting = localStorage.getItem("theme");
   return (themeSetting != "dark" && themeSetting != "light" && themeSetting != "system") ? "system" : themeSetting;
@@ -32,19 +31,9 @@ let setTheme = (theme) => {
 
   if (use_theme === "dark") {
     $("html").attr("data-theme", "dark");
-    $("#theme-icon").removeClass("fa-sun").addClass("fa-moon");
   } else if (use_theme === "light") {
     $("html").removeAttr("data-theme");
-    $("#theme-icon").removeClass("fa-moon").addClass("fa-sun");
   }
-};
-
-// Toggle the theme manually
-var toggleTheme = () => {
-  const current_theme = $("html").attr("data-theme");
-  const new_theme = current_theme === "dark" ? "light" : "dark";
-  localStorage.setItem("theme", new_theme);
-  setTheme(new_theme);
 };
 
 /* ==========================================================================
@@ -98,9 +87,6 @@ $(document).ready(function () {
             setTheme(e.matches ? "dark" : "light");
           }
         });
-
-  // Enable the theme toggle
-  $('#theme-toggle').on('click', toggleTheme);
 
   // Enable the sticky footer
   var bumpIt = function () {

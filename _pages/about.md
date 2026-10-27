@@ -32,13 +32,13 @@ Selected publications
 
 Education
 ======
-* **Ph.D.** Computer Science and Technology, SKLCS Lab, Institute of Software, Chinese Acadamy of Sciences, and University of Chinese Acadamy of Sciences, Jan, 2023.
-* **M.S.** Physical Electronics, Jilin University, jun, 2014.
-* **B.S.** Electronic Science and Technology (Microelectronics), Heilongjiang University, jun, 2011.
+* Ph.D Computer Science and Technology, SKLCS Lab, Institute of Software, Chinese Acadamy of Sciences, and University of Chinese Acadamy of Sciences, Aug, 2018 ~ Jan, 2023.
+* M.S. Physical Electronics, Jilin University, sep, 2011 ~ jun, 2014.
+* B.S. Electronic Science and Technology (Microelectronics), Heilongjiang University, sep, 2007 ~ jun, 2011.
 
 Work experience
 ======
-* Feb. 2023 - now: Post-doctor & Research Assistant
+* Feb. 2023 - now: Post-doctor, Research Assistant, Associate Professor
   * Human-Computer Interaction(HCI) Laboratory, Institute of software, Chinese Acadamy of Scienses (Beijing, China)
 
 * Sep. 2014 - Aug. 2018: R&D Engineer (Technical Supervisor)

@@ -764,6 +764,24 @@ html[data-cyberpunk="on"] .language-switch__control .language-switch__current { 
   .masthead__inner-wrap { padding: 0.55rem 0.75rem; }
   .masthead__menu-item--lg { padding-right: 0.55rem; }
   .masthead__menu-item--lg a { font-size: 0.9rem; }
+  .masthead__menu-item:not(.masthead__menu-item--lg) a { font-size: 0.72em; }
+  #site-nav { width: calc(100% - 54px); min-width: 0; }
+  #site-nav > button { display: none !important; }
+  .greedy-nav { min-width: 0; }
+  .greedy-nav .visible-links {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .greedy-nav .visible-links::-webkit-scrollbar { display: none; }
+  .greedy-nav .visible-links li { display: inline-block; vertical-align: middle; }
+  .greedy-nav .visible-links a { margin: 0 0.55rem; font-size: 0.72em; }
+  .greedy-nav .hidden-links { display: none !important; }
   .language-switch__control { gap: 0; padding: 0.12rem 0.25rem; }
   .language-switch__control a,
   .language-switch__control span { font-size: 0.65rem !important; }
