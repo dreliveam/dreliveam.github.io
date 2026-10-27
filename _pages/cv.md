@@ -11,7 +11,7 @@ redirect_from:
 
 About Me
 ======
-I am a associate professor at the Institute of Software, Chinese Academy of Sciences. My research focuses on computer graphics, with a particular emphasis on physical simulation. I am also one of the developers of the general physics engine project - [PeriDyno](https://github.com/peridyno) (hosted by [Xiaowei He](https://peridynamics.com/)).
+I am associate professor at the Institute of Software, Chinese Academy of Sciences. My research focuses on computer graphics, with a particular emphasis on physical simulation. I am also one of the developers of the general physics engine project - [PeriDyno](https://github.com/peridyno) (hosted by [Xiaowei He](https://peridynamics.com/)).
 
 Education
 ======
@@ -30,7 +30,7 @@ Work experience
 
 Invention patents
 ======
-* Number of granted invention patents: 14 (CN202210976684.3, CN201911390333.9, etc.)
+* Number of granted invention patents: 12 (CN202210976684.3, CN201911390333.9, etc.)
 * Number of patent applications pending: 4 (CN202610657435.6, CN202511266701.4, etc.)
 
 Research Projects
