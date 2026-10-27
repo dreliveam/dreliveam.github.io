@@ -45,6 +45,11 @@ Work experience
   * Qingdao Hisense Group
   * Duties included: Hardware R&D Engineer
 
+Invention patents
+======
+* Number of granted invention patents: 14 (CN202210976684.3, CN201911390333.9, etc.)
+* Number of patent applications pending: 4 (CN202610657435.6, CN202511266701.4, etc.)
+
 Research Projects
 ======
 * Research on physical simulation using the dual-particle framework, National Natural Science Foundation of China, Jan.2024-Dec.2026, Principle Investigator(No.62302490).
