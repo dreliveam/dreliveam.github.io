@@ -8,6 +8,10 @@ author_profile: true
 
 我现任中国科学院 软件研究所 副研究员（副教授），主要研究方向为：计算机图形学、物理仿真算法、物理引擎开发等。目前是[何小伟研究员](https://peridynamics.com/)科研团队的成员。此外，我还参与开发了通用物理引擎 [PeriDyno](https://github.com/peridyno)（该项目由[何小伟研究员](https://peridynamics.com/)发起与维护）。
 
+E-Mail
+======
+liushusen@iscas.ac.cn
+
 教育经历
 ======
 * **博士（计算机科学与技术）**，中国科学院软件研究所计算机科学国家重点实验室（SKLCS）/中国科学院大学，2018年8月至2023年1月。

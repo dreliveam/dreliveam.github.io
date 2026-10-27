@@ -13,6 +13,10 @@ About Me
 ======
 I am an associate professor at the Institute of Software, Chinese Academy of Sciences. My research focuses on computer graphics, computational physics, and fluid simulation. I am also one of the developers of the general physics engine project - [PeriDyno](https://github.com/peridyno) (hosted by [Xiaowei He](https://peridynamics.com/)).
 
+E-Mail
+======
+liushusen@iscas.ac.cn
+
 Education
 ======
 * Ph.D Computer Science and Technology, SKLCS Lab, Institute of Software, Chinese Acadamy of Sciences, and University of Chinese Acadamy of Sciences, Aug, 2018 ~ Jan, 2023.

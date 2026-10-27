@@ -284,7 +284,7 @@ html[data-cyberpunk="on"] .cyberpunk-lights {
 }
 
 html[data-cyberpunk="on"] .cyberpunk-lights::before,
-html[data-cyberpunk="on"] .cyberpunk-lights::after {
+html[data-cyberpunk="on"] .cyberpunk-lights::before {
   position: absolute;
   inset: -20%;
   display: block;
@@ -302,22 +302,53 @@ html[data-cyberpunk="on"] .cyberpunk-lights::before {
   animation: cyberpunk-spotlight-sweep 18s linear infinite alternate;
 }
 
-html[data-cyberpunk="on"] .cyberpunk-lights::after {
-  opacity: 0.78;
-  background-image:
-    radial-gradient(circle, rgba(145, 210, 255, 1) 0, rgba(91, 140, 255, 0.52) 12%, rgba(91, 140, 255, 0.08) 38%, transparent 70%),
-    radial-gradient(circle, rgba(209, 166, 255, 0.98) 0, rgba(138, 91, 255, 0.5) 14%, rgba(138, 91, 255, 0.08) 40%, transparent 70%),
-    radial-gradient(circle, rgba(128, 172, 255, 0.96) 0, rgba(109, 107, 255, 0.45) 12%, rgba(109, 107, 255, 0.07) 38%, transparent 70%),
-    radial-gradient(circle, rgba(219, 165, 255, 0.92) 0, rgba(142, 101, 255, 0.42) 13%, rgba(142, 101, 255, 0.07) 40%, transparent 70%),
-    radial-gradient(circle, rgba(176, 154, 255, 0.76) 0, rgba(118, 95, 255, 0.3) 14%, rgba(118, 95, 255, 0.05) 42%, transparent 72%),
-    radial-gradient(circle, rgba(255, 224, 157, 0.78) 0, rgba(255, 194, 108, 0.32) 14%, rgba(255, 194, 108, 0.05) 42%, transparent 72%),
-    radial-gradient(circle, rgba(156, 198, 255, 0.76) 0, rgba(97, 133, 255, 0.3) 13%, rgba(97, 133, 255, 0.05) 42%, transparent 72%);
-  background-repeat: no-repeat;
-  background-size: 190px 190px, 250px 250px, 160px 160px, 220px 220px, 135px 135px, 155px 155px, 145px 145px;
-  background-position: 12% 78%, 84% 68%, 72% 20%, 27% 18%, 42% 48%, 16% 44%, 91% 35%;
-  filter: blur(12px);
+html[data-cyberpunk="on"] .cyberpunk-lights .cyberpunk-firefly {
+  position: absolute;
+  display: block;
+  border-radius: 50%;
+  filter: blur(14px);
   mix-blend-mode: screen;
-  animation: cyberpunk-firefly-drift 34s ease-in-out infinite alternate, cyberpunk-firefly-flicker 8s ease-in-out infinite;
+  pointer-events: none;
+  animation-name: cyberpunk-firefly-drift, cyberpunk-firefly-flicker;
+  animation-timing-function: ease-in-out, ease-in-out;
+  animation-iteration-count: infinite, infinite;
+  animation-direction: alternate, alternate;
+}
+
+html[data-cyberpunk="on"] .cyberpunk-firefly--1 {
+  top: 70%; left: 8%; width: 180px; height: 180px;
+  background: radial-gradient(circle, rgba(83, 242, 255, 0.82) 0, rgba(30, 176, 255, 0.34) 18%, rgba(30, 176, 255, 0.06) 48%, transparent 72%);
+  animation-duration: 31s, 4.7s; animation-delay: -8s, -1.1s;
+}
+html[data-cyberpunk="on"] .cyberpunk-firefly--2 {
+  top: 62%; left: 80%; width: 230px; height: 230px;
+  background: radial-gradient(circle, rgba(184, 105, 255, 0.8) 0, rgba(128, 67, 255, 0.36) 17%, rgba(128, 67, 255, 0.06) 48%, transparent 72%);
+  animation-duration: 37s, 7.1s; animation-delay: -13s, -4.2s;
+}
+html[data-cyberpunk="on"] .cyberpunk-firefly--3 {
+  top: 15%; left: 65%; width: 155px; height: 155px;
+  background: radial-gradient(circle, rgba(78, 153, 255, 0.84) 0, rgba(54, 91, 255, 0.35) 18%, rgba(54, 91, 255, 0.06) 48%, transparent 72%);
+  animation-duration: 28s, 5.9s; animation-delay: -19s, -2.7s;
+}
+html[data-cyberpunk="on"] .cyberpunk-firefly--4 {
+  top: 16%; left: 23%; width: 210px; height: 210px;
+  background: radial-gradient(circle, rgba(255, 82, 220, 0.68) 0, rgba(194, 55, 255, 0.3) 18%, rgba(194, 55, 255, 0.05) 48%, transparent 72%);
+  animation-duration: 41s, 6.4s; animation-delay: -25s, -5.3s;
+}
+html[data-cyberpunk="on"] .cyberpunk-firefly--5 {
+  top: 44%; left: 41%; width: 140px; height: 140px;
+  background: radial-gradient(circle, rgba(157, 125, 255, 0.72) 0, rgba(103, 89, 255, 0.3) 18%, rgba(103, 89, 255, 0.05) 48%, transparent 72%);
+  animation-duration: 33s, 8.3s; animation-delay: -5s, -6.8s;
+}
+html[data-cyberpunk="on"] .cyberpunk-firefly--6 {
+  top: 41%; left: 13%; width: 160px; height: 160px;
+  background: radial-gradient(circle, rgba(57, 218, 255, 0.72) 0, rgba(55, 116, 255, 0.3) 18%, rgba(55, 116, 255, 0.05) 48%, transparent 72%);
+  animation-duration: 46s, 5.2s; animation-delay: -31s, -3.6s;
+}
+html[data-cyberpunk="on"] .cyberpunk-firefly--7 {
+  top: 31%; left: 88%; width: 145px; height: 145px;
+  background: radial-gradient(circle, rgba(222, 100, 255, 0.7) 0, rgba(123, 71, 255, 0.3) 18%, rgba(123, 71, 255, 0.05) 48%, transparent 72%);
+  animation-duration: 35s, 9.2s; animation-delay: -17s, -7.4s;
 }
 
 html[data-cyberpunk="on"] .masthead {
@@ -542,6 +573,7 @@ html[data-cyberpunk="on"] .site-watermark small {
 html[data-cyberpunk="on"] #main .page__title,
 html[data-cyberpunk="on"] .language-zh #main h1,
 html[data-cyberpunk="on"] #main h1#about-me,
+html[data-cyberpunk="on"] #main h1#e-mail,
 html[data-cyberpunk="on"] #main h1#education,
 html[data-cyberpunk="on"] #main h1#work-experience,
 html[data-cyberpunk="on"] #main h1#invention-patents,
@@ -622,15 +654,15 @@ html[data-cyberpunk="on"] .language-switch__control .language-switch__current { 
 }
 
 @keyframes cyberpunk-firefly-drift {
-  0% { background-position: 12% 78%, 84% 68%, 72% 20%, 27% 18%, 42% 48%, 16% 44%, 91% 35%; }
-  100% { background-position: 17% 74%, 80% 72%, 68% 24%, 31% 15%, 46% 45%, 20% 41%, 87% 39%; }
+  0% { transform: translate3d(-7px, 5px, 0) scale(0.94); }
+  100% { transform: translate3d(9px, -8px, 0) scale(1.06); }
 }
 
 @keyframes cyberpunk-firefly-flicker {
-  0%, 100% { opacity: 0.62; }
-  28% { opacity: 0.96; }
-  54% { opacity: 0.7; }
-  76% { opacity: 1; }
+  0%, 100% { opacity: 0.22; }
+  28% { opacity: 0.56; }
+  54% { opacity: 0.3; }
+  76% { opacity: 0.68; }
 }
 
 @keyframes cyberpunk-scan {
@@ -678,7 +710,7 @@ html[data-cyberpunk="on"] .language-switch__control .language-switch__current { 
   html[data-cyberpunk="on"] body::before,
   html[data-cyberpunk="on"] body::after,
   html[data-cyberpunk="on"] .cyberpunk-lights::before,
-  html[data-cyberpunk="on"] .cyberpunk-lights::after,
+  html[data-cyberpunk="on"] .cyberpunk-lights .cyberpunk-firefly,
   html[data-cyberpunk="on"] .site-watermark > span,
   html[data-cyberpunk="on"] .site-watermark small,
   html[data-cyberpunk="on"] .home-page .publication-thumb img,
@@ -687,6 +719,7 @@ html[data-cyberpunk="on"] .language-switch__control .language-switch__current { 
   html[data-cyberpunk="on"] #main .page__title,
   html[data-cyberpunk="on"] .language-zh #main h1,
   html[data-cyberpunk="on"] #main h1#about-me,
+  html[data-cyberpunk="on"] #main h1#e-mail,
   html[data-cyberpunk="on"] #main h1#education,
   html[data-cyberpunk="on"] #main h1#work-experience,
   html[data-cyberpunk="on"] #main h1#invention-patents,
@@ -697,7 +730,7 @@ html[data-cyberpunk="on"] .language-switch__control .language-switch__current { 
   html[data-cyberpunk="on"] .publications-page .archive__item-title a,
   html[data-cyberpunk="on"] .home-hero__lead strong a { animation: none; }
 
-  html[data-cyberpunk="on"] .cyberpunk-lights::after { opacity: 0.25; }
+  html[data-cyberpunk="on"] .cyberpunk-lights .cyberpunk-firefly { opacity: 0.25; }
 }
 
 /* Keep the desktop layout intact while making narrow screens flow cleanly. */

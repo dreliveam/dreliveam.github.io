@@ -23,6 +23,10 @@ author_profile: true
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
+E-Mail
+======
+liushusen@iscas.ac.cn
+
 教育经历
 ======
 * **博士（计算机科学与技术）**，中国科学院软件研究所计算机科学国家重点实验室（SKLCS）/中国科学院大学，2018年8月至2023年1月。

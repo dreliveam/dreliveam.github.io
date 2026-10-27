@@ -30,6 +30,10 @@ Selected publications
 
 
 
+E-Mail
+======
+liushusen@iscas.ac.cn
+
 Education
 ======
 * Ph.D Computer Science and Technology, SKLCS Lab, Institute of Software, Chinese Acadamy of Sciences, and University of Chinese Acadamy of Sciences, Aug, 2018 ~ Jan, 2023.
