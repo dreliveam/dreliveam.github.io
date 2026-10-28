@@ -18,7 +18,7 @@
   <div class="author__content">
     {% if page.lang == 'zh' %}
       <h3 class="author__name">{{ author.name_zh | default: author.name }}</h3>
-      <p class="author__bio">中国科学院 软件研究所 副研究员（副教授），研究方向为计算机图形学、计算物理与流体模拟。</p>
+      <p class="author__bio">现任中国科学院 软件研究所 副研究员，研究方向为计算机图形学、计算物理与流体模拟。</p>
     {% else %}
       <h3 class="author__name">{{ author.name }}{% if author.name_zh %}（{{ author.name_zh }}）{% endif %}</h3>
       {% if author.pronouns %}<p class="author__pronouns">{{ author.pronouns }}</p>{% endif %}

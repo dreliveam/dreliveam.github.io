@@ -22,7 +22,7 @@ redirect_from:
  
 
 
-Selected publications
+  Selected publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}

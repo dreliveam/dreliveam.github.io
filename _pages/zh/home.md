@@ -9,7 +9,7 @@ author_profile: true
 <section class="home-hero">
   <div class="home-hero__copy">
     <p class="eyebrow">Computer Graphics · Physical Simulation · Research</p>
-    <p class="home-hero__lead">我现任中国科学院 软件研究所 副研究员（副教授），主要研究方向为：计算机图形学、物理仿真算法、物理引擎开发等。目前是<strong><a href="https://peridynamics.com/">何小伟研究员</a></strong>科研团队的成员。此外，我还参与开发了通用物理引擎 <strong><a href="https://github.com/peridyno">PeriDyno</a></strong>（该项目由<strong><a href="https://peridynamics.com/">何小伟研究员</a></strong>发起与维护）。</p>
+    <p class="home-hero__lead">现任中国科学院 软件研究所 副研究员，主要研究方向为：计算机图形学、物理仿真算法、物理引擎开发等。目前是<strong><a href="https://peridynamics.com/">何小伟研究员</a></strong>科研团队的成员。此外，我还参与开发了通用物理引擎 <strong><a href="https://github.com/peridyno">PeriDyno</a></strong>（该项目由<strong><a href="https://peridynamics.com/">何小伟研究员</a></strong>发起与维护）。</p>
     <div class="home-hero__actions">
       <a class="button button--primary" href="/publications/">浏览论文 <span aria-hidden="true">→</span></a>
       <a class="button button--text" href="/zh/cv/">个人简介</a>
@@ -41,12 +41,12 @@ liushusen@iscas.ac.cn
 * 2014年9月至2018年8月：硬件研发工程师（主管设计师）
   * 海信集团 (青岛)
 
-发明专利：
+发明专利
 ======
 * 授权发明专利数量：12项 (CN202210976684.3, CN201911390333.9, 等.)
 * 受理发明专利数量：4项 (CN202610657435.6, CN202511266701.4, 等.)
 
-科研项目
+科研项目(部分)
 ======
 * 主持国家自然科学基金项目“基于双粒子框架的物理模拟研究”（项目编号：62302490），执行期为2024年1月至2026年12月。
 
