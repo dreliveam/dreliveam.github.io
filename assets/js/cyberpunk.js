@@ -192,22 +192,7 @@
       try {
         localStorage.setItem("cyberpunk", enabled ? "on" : "off");
       } catch (error) {}
-      if (!enabled && meteorAnimation) {
-        meteorAnimation.cancel();
-        meteorAnimation = null;
-      }
-      if (!enabled && meteorFadeAnimation) {
-        meteorFadeAnimation.cancel();
-        meteorFadeAnimation = null;
-      }
-      if (!enabled && meteorFlight) {
-        meteorFlight.style.transform = "translate3d(0, 0, 0)";
-        meteorFlight.style.opacity = "0";
-      }
-      render();
-      if (enabled) startGrid();
-      else stopGrid();
-      scheduleMeteor(true);
+      window.location.reload();
     });
   }
   if (enabled) startGrid();

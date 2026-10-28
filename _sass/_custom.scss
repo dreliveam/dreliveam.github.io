@@ -206,6 +206,13 @@ html[data-theme="dark"] .sidebar .author__bio,
 html[data-theme="dark"] .sidebar .author__urls a { color: #b5bfd0; }
 html[data-theme="dark"] .sidebar .author__urls a:hover { color: #8fdcf2; background: rgba(143, 220, 242, 0.12); }
 
+/* Tighten the fixed-header offset outside CyberPunk mode and keep the portrait square on phones. */
+html:not([data-cyberpunk="on"]) #main { padding-top: 5.25rem; }
+@media (max-width: 600px) {
+  html:not([data-cyberpunk="on"]) #main { padding-top: 4.25rem; }
+  html:not([data-cyberpunk="on"]) .sidebar .author__avatar img:not(.cyberpunk-avatar) { border-radius: 0; }
+}
+
 /* Compact language control; localized page typography only applies to Chinese routes. */
 .language-switch__control { display: flex; align-items: center; gap: 0.12rem; border: 1px solid var(--personal-line); border-radius: 999px; padding: 0.16rem 0.38rem; background: rgba(255, 255, 255, 0.68); }
 .language-switch__control a,
